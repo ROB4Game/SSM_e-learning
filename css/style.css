@@ -1,13 +1,5 @@
-* {
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.courses {
+#courses {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
@@ -84,19 +76,19 @@ body {
 #search button:hover {
     background-color: #3b78e6;
 }
-.marca {
+#marca {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.top-bar {
+#top-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
     background-color: #a3dd02;
 }
-.profile {
+#profile {
     display: flex;
     align-items: center;
     gap: 40px;
