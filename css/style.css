@@ -1,5 +1,24 @@
 
-#courses {
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #1f2937;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #1f3c5d;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.courses {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
@@ -92,4 +111,10 @@
     display: flex;
     align-items: center;
     gap: 40px;
+}
+.logo {
+    width: 32 px;
+    height: 32 px;
+    border-radius: 50%;
+    background-color: gray;
 }
