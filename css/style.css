@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    grid-auto-rows: auto;
+    align-items: start;
+}
+.course {
+    background-color: #ffffff;
+    border: 1px solid #e0e7ef;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    width: 100%;
+    min-width: 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.course:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.12);
+}
+.course h3 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    color: #1f3c5d;
+    font-size: 1.25rem;
+}
+.course p {
+    margin-bottom: 18px;
+    color: #546070;
+    line-height: 1.6;
+}
+.course button {
+    background-color: #8007b8;
+    color: #ffffff;
+    border: none;
+    border-radius: 999px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.course button:hover {
+    background-color: #3b78e6;
+    transform: translateY(-1px);
+}
+#search {
+    position: relative;
+    width: 100%;
+    max-width: 360px;
+}
+#search input {
+    width: 100%;
+    padding: 10px 52px 10px 16px;
+    border: 1px solid #e0e7ef;
+    border-radius: 999px;
+    font-size: 1rem;
+}
+#search button {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #4a93ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 16px;
+    cursor: pointer;
+    min-width: 72px;
+}
+#search button:hover {
+    background-color: #3b78e6;
+}
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #a3dd02;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
