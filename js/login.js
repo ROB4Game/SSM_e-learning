@@ -7,46 +7,35 @@ statusMessage.className = "login-status";
 statusMessage.setAttribute("aria-live", "polite");
 loginForm.appendChild(statusMessage);
 
-let storedLogins = [];
+const serverIP = "10.7.0.114";
 
-async function loadUsers() {
-    try {
-        const response = await fetch("../data/users.json");
-        if (!response.ok) throw new Error("Failed to load users.json");
-        const data = await response.json();
-        storedLogins = Array.isArray(data.users) ? data.users : [];
-        console.log("Users loaded successfully!");
-    } catch (err) {
-        console.error(err);
-        storedLogins = [];
-    }
-}
+loginForm.addEventListener("submit", async function (event) {
+  event.preventDefault(); // ✅ correct variable
 
-loadUsers();
+  const username = usernameInput.value;
+  const password = passwordInput.value;
 
-loginForm.addEventListener("submit", function (event) {
-    event.preventDefault();
-
-    const username = usernameInput.value.trim();
-    const password = passwordInput.value;
-
-    if (storedLogins.length === 0) {
-        statusMessage.textContent = "User list not loaded. Please try again.";
-        statusMessage.style.color = "#b00020";
-        return;
-    }
-
-    const matchedUser = storedLogins.find(function (user) {
-        return user.username === username && user.password === password;
+  try {
+    const res = await fetch(`http://${serverIP}:4000/login`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ username, password })
     });
 
-    if (matchedUser) {
-        statusMessage.textContent = "Successfully logged in!";
-        statusMessage.style.color = "#1f7a1f";
-        console.log("Successfully logged in!", matchedUser);
-        return;
+    const data = await res.json();
+
+    console.log(data);
+
+    if (data.token) {
+      localStorage.setItem("token", data.token);
+      statusMessage.textContent = "Login successful";
+    } else {
+      statusMessage.textContent = "Login failed";
     }
 
-    statusMessage.textContent = "Invalid username or password.";
-    statusMessage.style.color = "#b00020";
+  } catch (err) {
+    statusMessage.textContent = "Server error";
+  }
 });
