@@ -88,12 +88,34 @@ h2 {
     color: #ffffff;
     border: none;
     border-radius: 999px;
-    padding: 10px 16px;
+    padding: 10px 10px;
     cursor: pointer;
     min-width: 72px;
 }
+#loginButton {
+    background: linear-gradient(135deg, #4a93ff, #3b78e6);
+    color: #ffffff;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 10px;
+    min-width: 96px;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    box-shadow: 0 8px 18px rgba(58, 120, 230, 0.22);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+#loginButton:hover {
+    transform: translateY(-1px);
+    filter: brightness(1.03);
+    box-shadow: 0 12px 24px rgba(58, 120, 230, 0.28);
+}
+#loginButton:focus-visible {
+    outline: 3px solid rgba(74, 147, 255, 0.35);
+    outline-offset: 3px;
+}
 #search button:hover {
-    background-color: #3b78e6;
+    background-color: #19cc70;
 }
 #marca {
     display: flex;
@@ -104,17 +126,17 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: #a3dd02;
 }
 #profile {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 42px;
 }
 .logo {
-    width: 32 px;
-    height: 32 px;
+    width: 12 px;
+    height: 12 px;
     border-radius: 50%;
     background-color: gray;
 }

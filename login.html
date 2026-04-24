@@ -13,10 +13,18 @@
         <link rel="stylesheet" href="css/login.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
+
+        <div class="login-card">
+            <h2>Login</h2>
+            <h3>Enter your credentials</h3>
+            <form class="login-form">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div >
         <script src="js/login.js" async defer></script>
     </body>
 </html>
