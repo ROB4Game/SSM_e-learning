@@ -145,6 +145,12 @@ body{
     border-radius: 1.25rem;
     transition:all 0.375s;
 }
+p{
+    display: list-item;
+    margin: 0;
+    font-weight: 200;
+    color: rgba(0,0,0,0.3);
+}
 @keyframes rotate {
     100%{
         background-position: 15% 50%;

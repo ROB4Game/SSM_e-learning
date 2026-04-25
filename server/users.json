@@ -12,5 +12,12 @@
     "password": "$2b$10$MAIHopoKo/43bEVtNEmF6.nHenjFvM4.Gdn/WeC/EpgionLoqg0D.",
     "email": "rqrqrq@cp.com",
     "phoneNum": "1268123111"
+  },
+  {
+    "id": 3,
+    "username": "test1234",
+    "password": "$2b$10$xHbj.7FIVvZJcT2m5v/ZaekMWdzxs8nnnts5DGCMZEfY4zA9BmzjS",
+    "email": "email@microsoft.com",
+    "phoneNum": "2276663342342"
   }
 ]
