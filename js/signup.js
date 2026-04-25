@@ -40,7 +40,9 @@ let ccodeSelect = document.getElementById("ccode");
 
 const signupForm = document.querySelector(".signup-form");
 
-const serverIP = "10.7.0.114";
+const serverIP = "0.0.0.0";
+const passwordRule = /^(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}$/;
+const phoneLocalRule = /^\d{6,12}$/;
 
 signupForm.addEventListener("submit", async function (event) {
     event.preventDefault();
@@ -48,7 +50,18 @@ signupForm.addEventListener("submit", async function (event) {
     const username = usernameInput.value;
     const email = emailInput.value;
     const password = passwordInput.value;
-    const phoneNum = String(ccodeSelect.value) + String(phoneInput.value);
+    const cleanedPhone = String(phoneInput.value).replace(/\D/g, "");
+    const phoneNum = String(ccodeSelect.value) + cleanedPhone;
+
+    if (!passwordRule.test(password)) {
+        alert("Password must be at least 8 characters and include 1 uppercase letter, 1 number, and 1 special character.");
+        return;
+    }
+
+    if (!phoneLocalRule.test(cleanedPhone)) {
+        alert("Phone number must contain only digits and be between 6 and 12 digits.");
+        return;
+    }
     
 
     try{

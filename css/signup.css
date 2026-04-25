@@ -16,6 +16,29 @@ body{
     font-family: 'Ubuntu';
     color: #000;
 }
+#backhome{
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 16px;
+    border-radius: 1.25rem;
+    background: #28A745;
+    color: #f9f9f9;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.375s;
+}
+#backhome:hover{
+    background: #1f8336;
+}
 .signup-card{
     position: relative;
     z-index: 3;

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
+    <a href="index.html" id="backhome">Back to Home</a>
     <div class="signup-card">
         <h2>Sign Up</h2>
         <h3>Create your account</h3>
@@ -237,11 +238,12 @@
                     <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
                 
                 </select>
-                <input type="tel" id="phone" name="phone" required>
+                <input type="tel" id="phone" name="phone" inputmode="numeric" minlength="6" maxlength="12" required>
             </div>
+            <p>Phone must be digits only (6 to 12 digits, country code selected separately).</p>
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
-            <p>Password must contain at least 8 characters</p>
+            <p>Password must be at least 8 characters and include 1 uppercase letter, 1 number, and 1 special character.</p>
             <button type="submit">Sign Up</button>
         </form>
     </div>

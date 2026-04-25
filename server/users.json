@@ -2,11 +2,15 @@
   {
     "id": 1,
     "username": "test",
-    "password": "$2b$10$fyltTdxOoTkEPsb5Sy6lOemKqYBcxQ7mE4pfBGunAlRo5av1t2jqy"
+    "password": "$2b$10$BryxMVqRuazsivihnMeSeuzEjmyexGjBOcT23F9jRpIgScvNfUoMq",
+    "email": "1234@1234.com",
+    "phoneNum": "4412341234"
   },
   {
     "id": 2,
-    "username": "wr2412",
-    "password": "$2b$10$TdEdWCOOUyH7UMoxAmVlqeVx1WJiho9f7GJQLdT/9zklSC53ZmM3m"
+    "username": "rqrqrq",
+    "password": "$2b$10$MAIHopoKo/43bEVtNEmF6.nHenjFvM4.Gdn/WeC/EpgionLoqg0D.",
+    "email": "rqrqrq@cp.com",
+    "phoneNum": "1268123111"
   }
 ]

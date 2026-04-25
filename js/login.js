@@ -7,7 +7,7 @@ statusMessage.className = "login-status";
 statusMessage.setAttribute("aria-live", "polite");
 loginForm.appendChild(statusMessage);
 
-const serverIP = "10.7.0.114";
+const serverIP = "0.0.0.0";
 
 loginForm.addEventListener("submit", async function (event) {
   event.preventDefault(); // ✅ correct variable
@@ -31,6 +31,7 @@ loginForm.addEventListener("submit", async function (event) {
     if (data.token) {
       localStorage.setItem("token", data.token);
       statusMessage.textContent = "Login successful";
+      window.location.href = "profile.html";
     } else {
       statusMessage.textContent = "Login failed";
     }
@@ -38,4 +39,5 @@ loginForm.addEventListener("submit", async function (event) {
   } catch (err) {
     statusMessage.textContent = "Server error";
   }
+
 });

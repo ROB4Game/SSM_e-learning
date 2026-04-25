@@ -17,8 +17,7 @@ const SECRET = process.env.SECRET;
 if (!SECRET) {
     console.error("Missing SECRET in .env file");
     process.exit(1);
-}
-const FILE = path.join(__dirname, 'users.json');
+};
 
 //read users
 function getUsers() {
@@ -48,23 +47,38 @@ function saveUsers(users){
 //register route
 app.post("/register", async(req,res)=>{
     const {username,password,email,phoneNum,phone} = req.body;
+    const normalizedUsername = String(username || "").trim();
     const normalizedEmail = String(email || "").trim().toLowerCase();
-    const normalizedPhone = String(phoneNum || phone || "").trim();
+    const normalizedPhone = String(phoneNum || phone || "").replace(/\D/g, "");
+    const passwordRule = /^(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{8,}$/;
+    const fullPhoneRule = /^\d{8,15}$/;
 
-    if(!username || !password || !normalizedEmail || !normalizedPhone){
+    if(!normalizedUsername || !password || !normalizedEmail || !normalizedPhone){
         return res.status(400).json({message:"Missing data"});
+    }
+
+    if (!passwordRule.test(password)) {
+        return res.status(400).json({
+            message: "Password must be at least 8 characters and include 1 uppercase letter, 1 number, and 1 special character"
+        });
+    }
+
+    if (!fullPhoneRule.test(normalizedPhone)) {
+        return res.status(400).json({
+            message: "Phone number must contain only digits and be 8 to 15 digits including country code"
+        });
     }
 
     const users = getUsers();
     //check if user exists
-    if(users.find(u=>u.username === username)){
+    if(users.find(u=>u.username === normalizedUsername)){
         return res.status(400).json({message:"User already exists"});
     }
 
     const hashedPassword = await bcrypt.hash(password,10);
     users.push({
         id: users.length + 1,
-        username,
+        username: normalizedUsername,
         password: hashedPassword,
         email: normalizedEmail,
         phoneNum: normalizedPhone
@@ -112,6 +126,25 @@ function authMiddleware(req,res,next){
 app.get("/dashboard",authMiddleware,(req,res)=>{
     res.json({message:`Welcome to your dashboard!`, user:req.user});
 });
+
+app.get("/profile", authMiddleware, (req, res) => {
+    const users = getUsers();
+    const user = users.find((u) => Number(u.id) === Number(req.user.id));
+
+    if (!user) {
+        return res.status(404).json({ message: "User not found" });
+    }
+
+    res.json({
+        user: {
+            id: user.id,
+            username: user.username,
+            email: user.email || "",
+            phoneNum: user.phoneNum || user.phone || ""
+        }
+    });
+});
+
 app.listen(4000,"0.0.0.0",()=>{
     console.log("Server running on network on port 4000");
 })
