@@ -1,0 +1,1036 @@
+{
+  "courses": [
+    {
+      "id": "curs-prim-ajutor",
+      "title": "Curs Prim Ajutor",
+      "description": "Curs de formare în acordarea primului ajutor la locul de muncă, conform cerințelor Legii nr. 186/2008 și standardelor internaționale de resuscitare ERC 2021. Certificat valabil 24 luni.",
+      "certificate_validity_months": 24,
+      "modules": [
+        {
+          "id": "pa-mod-1",
+          "title": "Principii generale și evaluarea situației",
+          "lessons": [
+            {
+              "id": "pa-mod-1-les-1",
+              "title": "Ce este primul ajutor și când intervii",
+              "type": "text",
+              "content": "Primul ajutor reprezintă totalitatea măsurilor imediate luate de o persoană fără echipament medical specializat pentru a menține în viață un accidentat sau bolnav subit, până la sosirea serviciilor medicale de urgență.\n\nOBLIGATIE LEGALĂ:\nConform Legii nr. 186/2008, angajatorul este obligat să asigure că există lucrători instruiți în acordarea primului ajutor și că există truse de prim ajutor accesibile la locul de muncă.\n\nDE CE CONTEAZĂ PRIMELE MINUTE:\n- Stopul cardiac — fiecare minut fără resuscitare reduce șansele de supraviețuire cu 7-10%\n- La 4-6 minute fără oxigen, creierul suferă leziuni ireversibile\n- Primul ajutor acordat corect înainte de sosirea ambulanței poate dubla sau tripla șansele de supraviețuire\n\nCÂND INTERVII:\n- Orice persoană care nu răspunde sau nu respiră normal\n- Hemoragii abundente care nu se opresc\n- Arsuri extinse sau profunde\n- Fracturi vizibile sau suspectate\n- Pierderea cunoștinței\n- Durere toracică intensă\n- Dificultăți severe de respirație\n- Reacție alergică severă (anafilaxie)\n\nCÂND NU INTERVII FIZIC:\n- Dacă locul accidentului prezintă pericol pentru tine (gaze, electricitate, clădire instabilă) — asigură mai întâi scena, nu te face a doua victimă\n- Sună la 112 și urmează instrucțiunile dispecerului"
+            },
+            {
+              "id": "pa-mod-1-les-2",
+              "title": "Lanțul supraviețuirii și apelul la 112",
+              "type": "text",
+              "content": "LANȚUL SUPRAVIEȚUIRII este conceptul care descrie secvența de acțiuni necesare pentru maximizarea șanselor de supraviețuire în stopul cardiac:\n\n1. RECUNOAȘTEREA TIMPURIE și apelul de urgență\n2. RCP PRECOCE (resuscitare cardio-pulmonară) efectuată de martor\n3. DEFIBRILARE PRECOCE (dacă este disponibil un DEA)\n4. RESUSCITARE AVANSATĂ de către echipa medicală\n5. ÎNGRIJIRI POST-RESUSCITARE în spital\n\nFiecare verigă contează. Tu, ca martor, controlezi primele 3 verigi.\n\nCUM APELEZI LA 112:\n1. Sună 112 — numărul unic de urgență în Republica Moldova\n2. Rămâi calm și vorbește clar\n3. Comunică: LOCUL (adresa exactă, repere), CE S-A ÎNTÂMPLAT, câte victime există, starea victimei (conștientă? respiră?)\n4. Urmează instrucțiunile dispecerului — acesta te poate ghida în timp real prin RCP\n5. NU închide telefonul decât dacă ți se spune\n6. Trimite pe cineva să aștepte și să ghideze ambulanța dacă locul este greu de găsit\n\nNUMERE UTILE REPUBLICA MOLDOVA:\n- 112 — urgențe (salvare, pompieri, poliție)\n- 901 — AVIASAN (serviciul de urgență medicală)"
+            },
+            {
+              "id": "pa-mod-1-quiz",
+              "title": "Test — Principii generale",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Cu câte procente scad șansele de supraviețuire pentru fiecare minut de stop cardiac fără resuscitare?",
+                  "options": [
+                    "2-3%",
+                    "5-6%",
+                    "7-10%",
+                    "15-20%"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q2",
+                  "text": "Ce faci dacă locul accidentului prezintă pericol (gaze, electricitate)?",
+                  "options": [
+                    "Intervii imediat pentru a salva victima",
+                    "Asiguri mai întâi scena și suni la 112 fără a te expune pericolului",
+                    "Aștepți să treacă pericolul fără a anunța pe nimeni",
+                    "Ceri unui coleg să intervină în locul tău"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q3",
+                  "text": "Care este numărul de urgență unic în Republica Moldova?",
+                  "options": [
+                    "901",
+                    "903",
+                    "112",
+                    "911"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q4",
+                  "text": "Prima verigă a lanțului supraviețuirii este:",
+                  "options": [
+                    "Defibrilarea precoce",
+                    "RCP efectuat de martor",
+                    "Recunoașterea timpurie și apelul de urgență",
+                    "Resuscitarea avansată de echipa medicală"
+                  ],
+                  "correct": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pa-mod-2",
+          "title": "Resuscitarea cardio-pulmonară (RCP)",
+          "lessons": [
+            {
+              "id": "pa-mod-2-les-1",
+              "title": "Recunoașterea stopului cardiac și începerea RCP",
+              "type": "text",
+              "content": "STOPUL CARDIAC înseamnă că inima a încetat să pompeze sânge. Fără intervenție imediată, moartea survine în câteva minute.\n\nCUM RECUNOȘTI STOPUL CARDIAC:\n1. Victima nu răspunde la stimuli (scutură-o de umeri și strigă: \"Ești bine?\")\n2. Victima nu respiră normal — absența respirației sau respirație agoanală (gâfâieli rare, zgomotoase) = STOP CARDIAC\n\nATENȚIE: Nu mai verifica pulsul — pierzi timp prețios. Dacă nu răspunde și nu respiră normal, începi RCP imediat.\n\nSECVENȚA RCP ADULT (conform ghidurilor ERC 2021):\n\n1. ASIGURĂ SCENA — verifică să nu existe pericole\n2. VERIFICĂ RĂSPUNSUL — scutură umerii, strigă\n3. STRIGĂ DUPĂ AJUTOR — solicită pe cineva să sune la 112 și să aducă DEA\n4. VERIFICĂ RESPIRAȚIA — înclină capul, ridică bărbia, privește 10 secunde\n5. DACĂ NU RESPIRĂ NORMAL — sună 112 (sau trimite pe cineva) și începe compresiile\n\nCOMPRESII TORACICE:\n- Poziție: podul palmei pe centrul pieptului (jumătatea inferioară a sternului)\n- Adâncime: 5-6 cm\n- Ritm: 100-120 compresii/minut (ritm de muzică disco, ex: \"Stayin Alive\"1)\n- Decompresie completă după fiecare compresie — nu lăsa greutatea pe piept\n- Raport: 30 compresii : 2 ventilații\n\nDACA NU EȘTI INSTRUIT SAU NU POȚI FACE VENTILAȚII:\nFă RCP NUMAI CU COMPRESII — 100-120 compresii/minut continuu, fără întrerupere până la sosirea ambulanței sau epuizare."
+            },
+            {
+              "id": "pa-mod-2-les-2",
+              "title": "Ventilațiile și utilizarea DEA",
+              "type": "text",
+              "content": "VENTILAȚIILE (respirațiile de salvare):\n- Înclină capul și ridică bărbia pentru a deschide căile aeriene\n- Pensează nasul victimei\n- Acoperă ermetic gura victimei cu gura ta\n- Suflă lent (1 secundă) până când pieptul se ridică vizibil\n- Efectuează 2 ventilații, fiecare durând 1 secundă\n- Dacă pieptul nu se ridică: repoziționează capul și încearcă din nou — maximum 2 tentative, apoi reiei compresiile\n\nATENȚIE: Ventilațiile nu sunt obligatorii dacă nu ești instruit sau nu poți face gură la gură. RCP numai cu compresii este eficient.\n\nDEFIBRILATORUL EXTERN AUTOMAT (DEA):\nDEA este un dispozitiv simplu de utilizat, prezent în locuri publice, aeroporturi, centre comerciale, fabrici mari.\n\nCUM FOLOSEȘTI DEA:\n1. Pornește DEA (apasă butonul sau deschide capacul)\n2. Urmează instrucțiunile vocale — DEA îți spune exact ce să faci\n3. Aplică electrozii pe pielea goală a pieptului (dreapta sus, stânga jos-lateral)\n4. DEA analizează ritmul cardiac — nu atinge victima în timpul analizei\n5. Dacă DEA recomandă șoc: asigură-te că nimeni nu atinge victima, apasă butonul\n6. Reia imediat RCP după șoc — nu aștepți\n7. Urmează instrucțiunile DEA până sosește ambulanța\n\nFOLOSIREA DEA NU POATE FACE RĂU — dacă nu este necesar șocul, DEA nu îl va livra. Nu îți fie teamă să îl folosești.\n\nRCP LA COPIL (1-8 ani): același protocol, compresii cu o mână sau două degete, adâncime 4-5 cm, 5 ventilații inițiale.\nRCP LA NOU-NĂSCUT: 2 degete pe stern, adâncime 3-4 cm, 5 ventilații inițiale."
+            },
+            {
+              "id": "pa-mod-2-quiz",
+              "title": "Test — RCP",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Care este adâncimea corectă a compresiilor toracice la adult?",
+                  "options": [
+                    "2-3 cm",
+                    "4-5 cm",
+                    "5-6 cm",
+                    "7-8 cm"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q2",
+                  "text": "Care este ritmul corect al compresiilor toracice?",
+                  "options": [
+                    "60-80/minut",
+                    "80-100/minut",
+                    "100-120/minut",
+                    "130-150/minut"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Raportul compresii:ventilații în RCP la adult este:",
+                  "options": [
+                    "15:2",
+                    "30:2",
+                    "20:2",
+                    "50:2"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q4",
+                  "text": "Dacă nu ești instruit să faci ventilații, ce faci?",
+                  "options": [
+                    "Nu începi RCP, aștepți ambulanța",
+                    "Faci doar ventilații fără compresii",
+                    "Faci RCP numai cu compresii, continuu",
+                    "Faci 30 compresii și te oprești"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q5",
+                  "text": "Dacă DEA nu recomandă șoc, înseamnă că:",
+                  "options": [
+                    "DEA este defect",
+                    "Victima este deja moartă și nu mai intervii",
+                    "Ritmul cardiac nu necesită defibrilare — reiei RCP",
+                    "Trebuie să aștepți o a doua analiză înainte de RCP"
+                  ],
+                  "correct": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pa-mod-3",
+          "title": "Hemoragii și șoc",
+          "lessons": [
+            {
+              "id": "pa-mod-3-les-1",
+              "title": "Controlul hemoragiilor",
+              "type": "text",
+              "content": "Hemoragia gravă poate duce la deces în câteva minute. Oprirea sângerării este prioritatea numărul unu după asigurarea scenei și apelul la 112.\n\nTIPURI DE HEMORAGII:\n- ARTERIALĂ: sânge roșu aprins, pulsatil — CEA MAI PERICULOASĂ\n- VENOASĂ: sânge roșu închis, curgere continuă\n- CAPILARĂ: sânge care suintă — mai puțin periculoasă\n\nMETODE DE CONTROL AL HEMORAGIEI (în ordine):\n\n1. COMPRESIE DIRECTĂ — prima și cea mai eficientă metodă:\n- Aplică presiune fermă și continuă cu un material curat (compresă, cârpă)\n- Menține presiunea minimum 10 minute fără a ridica materialul\n- Dacă materialul se îmbibă, adaugă altul deasupra — nu îl îndepărta\n- Dacă este posibil, ridică membrul afectat deasupra nivelului inimii\n\n2. GAROU (TOURNIQUET) — pentru hemoragii masive la membre care nu pot fi controlate prin compresie:\n- Aplică-l la 5-8 cm deasupra plăgii\n- Strânge până când sângerarea se oprește\n- NOTEAZĂ ORA APLICĂRII — esențial pentru echipa medicală\n- Odată aplicat, nu îl scoate\n- Garourile improvizate (centuri late) sunt acceptabile în urgență\n\n3. PANSAMENT HEMOSTATIC — dacă este disponibil în trusa de prim ajutor:\n- Aplicat în plagă, eliberează agenți coagulanți\n- Se combină cu compresia directă\n\nHEMORAGII SPECIALE:\n- Cap și față: compresie directă, atenție la fracturi craniene\n- Nas: apleacă capul înainte, ciupește nările 10-15 minute, nu apleca pe spate\n- Ureche: nu bloca scurgerea — poate fi semn de fractură craniană\n- Abdomen cu organe exteriorizate: acoperă cu material umed, NU împinge organele înapoi"
+            },
+            {
+              "id": "pa-mod-3-les-2",
+              "title": "Recunoașterea și managementul șocului",
+              "type": "text",
+              "content": "ȘOCUL este o stare critică în care organele vitale nu primesc suficient sânge oxigenat. Netratrat, duce la deces.\n\nSEMNE DE ȘOC:\n- Piele palidă, rece, lipicioasă\n- Puls rapid și slab\n- Respirație rapidă și superficială\n- Confuzie, agitație sau letargie\n- Sete intensă\n- Amețeală sau leșin\n- Buze și unghii albăstrii (cianoză)\n\nTIPURI PRINCIPALE:\n- ȘOC HEMORAGIC — din pierdere de sânge (cel mai frecvent la accidente de muncă)\n- ȘOC ANAFILACTIC — reacție alergică severă (mușcături de insecte, alimente, medicamente)\n- ȘOC CARDIAC — din stop cardiac sau infarct\n\nCE FACI ÎN ȘOC:\n1. Sună 112 imediat\n2. Culcă victima pe spate, ridică picioarele la 30 cm (NU dacă suspectezi traumatism coloană sau cap)\n3. Menține victima caldă (acoperă cu o pătură)\n4. Nu da nimic de băut sau mâncat\n5. Monitorizează permanent respirația și starea de conștiență\n6. Fii calm și liniștitor cu victima\n\nȘOC ANAFILACTIC — RECUNOAȘTERE ȘI ACȚIUNE:\nSemne: urticarie generalizată, umflarea feței/gâtului, dificultăți respiratorii severe, prăbușire tensională.\nAcțiune: 112 imediat; dacă victima are EpiPen prescris, ajut-o să îl folosească sau administrează-l tu; poziție semi-șezândă dacă are dificultăți respiratorii."
+            },
+            {
+              "id": "pa-mod-3-quiz",
+              "title": "Test — Hemoragii și șoc",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Cel mai periculos tip de hemoragie este:",
+                  "options": [
+                    "Capilară",
+                    "Venoasă",
+                    "Arterială",
+                    "Internă superficială"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q2",
+                  "text": "Dacă materialul de compresie directă se îmbibă cu sânge, ce faci?",
+                  "options": [
+                    "Îl înlocuiești cu unul curat",
+                    "Adaugi material deasupra, fără a îndepărta primul",
+                    "Renunți la compresie și aplici garou",
+                    "Speli plaga cu apă"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q3",
+                  "text": "La aplicarea garoului, ce informație critică trebuie notată obligatoriu?",
+                  "options": [
+                    "Numele victimei",
+                    "Ora aplicării",
+                    "Tipul de garou folosit",
+                    "Tensiunea arterială a victimei"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q4",
+                  "text": "Poziția corectă a unui pacient în șoc hemoragic (fără traumatism de coloană) este:",
+                  "options": [
+                    "Șezând, cu capul între genunchi",
+                    "Pe burtă",
+                    "Pe spate cu picioarele ridicate la 30 cm",
+                    "Poziție laterală de siguranță"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q5",
+                  "text": "Care dintre semnele de mai jos indică ȘOC?",
+                  "options": [
+                    "Piele roșie și caldă, puls lent",
+                    "Piele palidă și rece, puls rapid și slab, confuzie",
+                    "Temperatură corporală ridicată, transpirație abundentă",
+                    "Durere localizată la nivelul unui membru"
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pa-mod-4",
+          "title": "Arsuri, fracturi și alte urgențe",
+          "lessons": [
+            {
+              "id": "pa-mod-4-les-1",
+              "title": "Arsuri — clasificare și prim ajutor",
+              "type": "text",
+              "content": "Arsurile sunt leziuni frecvente la locul de muncă, produse de căldură, substanțe chimice, electricitate sau radiații.\n\nCLASIFICARE DUPĂ PROFUNZIME:\n- GRADUL I: afectează doar stratul superficial al pielii — roșeață, durere, fără flictene. Vindecare spontană în câteva zile.\n- GRADUL II: afectează dermul — flictene (băsici cu lichid), durere intensă, risc de infecție.\n- GRADUL III: afectează toate straturile pielii — piele carbonizată sau albicioasă, fără durere (nervii sunt distruși). URGENȚĂ MAJORĂ.\n\nARSURI CARE NECESITĂ AMBULANȚĂ:\n- Orice arsură de gradul III\n- Arsuri de gradul II mai mari de 5% din suprafața corpului (palma = aprox. 1%)\n- Arsuri la față, mâini, picioare, organe genitale sau articulații\n- Arsuri chimice sau electrice\n- Arsuri la copii sau vârstnici\n\nPRIM AJUTOR PENTRU ARSURI TERMICE:\n1. Răcire imediată sub apă curentă rece (nu gheață!) — 20 minute\n2. Îndepărtează bijuteriile și îmbrăcămintea din zona arsă (dacă nu sunt lipite de piele)\n3. Acoperă cu material curat, umed, fără scame (nu vată!)\n4. NU sparge flictenele\n5. NU aplica paste, uleiuri, smântână, alcool\n6. Sună 112 pentru arsuri grave\n\nARSURI CHIMICE:\n1. Îndepărtează îmbrăcămintea contaminată (cu mănuși!)\n2. Spală cu cantități mari de apă rece — minimum 20 minute\n3. Sună 112\n4. Consultă fișa de securitate a substanței chimice pentru indicații specifice\n\nARSURI ELECTRICE:\n- Nu atinge victima dacă sursa de curent este activă\n- Oprește curentul de la tabloul electric\n- Arsurile electrice sunt întotdeauna mai grave decât par la suprafață — sună 112"
+            },
+            {
+              "id": "pa-mod-4-les-2",
+              "title": "Fracturi, traumatisme și poziția laterală de siguranță",
+              "type": "text",
+              "content": "FRACTURI — RECUNOAȘTERE:\n- Durere intensă la locul fracturii, agravată de mișcare\n- Deformare sau scurtare a membrului\n- Umflătură și echimoze (vânătăi)\n- Imposibilitatea mișcării normale\n- Cracment (sunet de scrâșnet) auzit la accidentare\n\nPRIM AJUTOR FRACTURI:\n1. NU forța mișcarea membrului fracturat\n2. Imobilizează fractura în poziția găsită (nu corecta) — cu atelă improvizată (scândură, carton) sau legând membrul de cel sănătos\n3. Aplică gheață învelită în material (nu direct pe piele) pentru a reduce umflătura\n4. Sună 112 pentru fracturi deschise, de coloană, bazin sau femur\n\nFRACTURI DE COLOANĂ VERTEBRALĂ:\n- Suspectează fractura de coloană la orice accident cu cădere de la înălțime, impact violent sau inconștiență\n- NU mișca victima fără imobilizare adecvată\n- Așteptați echipa medicală cu echipament specializat\n\nTRAUMATISM CRANIAN:\n- Semne de alarmă: pierderea cunoștinței (chiar și scurtă), amnezie post-traumatică, greață, vărsături, durere de cap intensă, inegalitatea pupilelor, curgere de lichid din nas sau urechi\n- Orice traumatism cranian cu pierderea cunoștinței necesită evaluare medicală\n\nPOZIȚIA LATERALĂ DE SIGURANȚĂ (PLS):\nSe aplică victimelor inconștiente care respiră, pentru a preveni aspirarea vărsăturilor.\n\nCUM APLICI PLS:\n1. Îngenunchează lângă victimă\n2. Plasează brațul dinspre tine în unghi drept față de corp\n3. Aduce celălalt braț peste piept, cu dosul mâinii la obrazul victimei\n4. Cu cealaltă mână, îndoaie genunchiul dinspre tine\n5. Rostogolind de genunchi, trage victima spre tine în decubit lateral\n6. Reglează poziția capului pentru a menține căile aeriene deschise\n7. Monitorizează respirația constant\n8. Dacă victima trebuie ținută în PLS mai mult de 30 minute, întoarce-o pe cealaltă parte"
+            },
+            {
+              "id": "pa-mod-4-quiz",
+              "title": "Test — Arsuri, fracturi și urgențe",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Cât timp se aplică răcirea cu apă rece la o arsură termică?",
+                  "options": [
+                    "5 minute",
+                    "10 minute",
+                    "20 minute",
+                    "30 minute"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q2",
+                  "text": "Ce NU trebuie aplicat pe o arsură?",
+                  "options": [
+                    "Apă rece curentă",
+                    "Material curat și umed",
+                    "Pastă de dinți, ulei sau smântână",
+                    "Compresă sterilă"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Poziția laterală de siguranță (PLS) se aplică victimelor:",
+                  "options": [
+                    "Conștiente cu fracturi ale membrelor",
+                    "Inconștiente care respiră",
+                    "Inconștiente care nu respiră",
+                    "Conștiente cu hemoragie"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q4",
+                  "text": "La suspiciunea de fractură de coloană vertebrală, ce faci?",
+                  "options": [
+                    "Muți victima rapid într-o poziție confortabilă",
+                    "Aplici PLS imediat",
+                    "Nu mișți victima și aștepți echipa medicală cu echipament specializat",
+                    "Aplici o atelă improvizată pe coloană"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q5",
+                  "text": "Arsurile electrice sunt:",
+                  "options": [
+                    "De obicei superficiale și nepericuloase",
+                    "Întotdeauna mai grave decât par la suprafață — necesită 112",
+                    "Tratate identic cu arsurile termice obișnuite",
+                    "Periculoase numai dacă sunt la față"
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curs-nivel-1",
+      "title": "Curs Nivel I — Conducători de locuri de muncă și specialiști",
+      "description": "Instruire SSM de 8 ore pentru conducători de locuri de muncă, specialiști și reprezentanți ai lucrătorilor cu răspunderi SSM, conform HG nr. 95/2009. Certificat valabil 36 luni.",
+      "certificate_validity_months": 36,
+      "modules": [
+        {
+          "id": "n1-mod-1",
+          "title": "Cadrul legislativ SSM în Republica Moldova",
+          "lessons": [
+            {
+              "id": "n1-mod-1-les-1",
+              "title": "Legea nr. 186/2008 privind SSM",
+              "type": "text",
+              "content": "Legea nr. 186/2008 privind securitatea și sănătatea în muncă este actul normativ fundamental care reglementează domeniul SSM în Republica Moldova, transpunând în legislația națională Directiva Europeană 89/391/CEE.\n\nDOMENIU DE APLICARE:\nLegea se aplică tuturor sectoarelor de activitate, publice și private, cu excepția forțelor armate, poliției și activităților cu particularități specifice serviciilor de protecție civilă.\n\nPRINCIPII GENERALE DE PREVENIRE (art. 9):\n1. Evitarea riscurilor\n2. Evaluarea riscurilor care nu pot fi evitate\n3. Combaterea riscurilor la sursă\n4. Adaptarea muncii la om\n5. Adaptarea la progresul tehnic\n6. Înlocuirea a ceea ce este periculos cu ceea ce nu este periculos sau este mai puțin periculos\n7. Dezvoltarea unei politici de prevenire coerente\n8. Acordarea priorității măsurilor de protecție colectivă față de măsurile de protecție individuală\n9. Emiterea de instrucțiuni corespunzătoare lucrătorilor\n\nRESPONSABILITĂȚILE CONDUCĂTORULUI DE LOC DE MUNCĂ:\nConducătorul locului de muncă este prima linie de apărare în prevenirea accidentelor. El cunoaște cel mai bine activitățile, riscurile specifice și oamenii din subordine. Responsabilitățile sale includ:\n- Instruirea la locul de muncă a subordonaților\n- Supravegherea respectării procedurilor SSM\n- Raportarea evenimentelor și situațiilor periculoase\n- Verificarea utilizării corecte a EIP"
+            },
+            {
+              "id": "n1-mod-1-les-2",
+              "title": "HG nr. 95/2009 — Instruirea în domeniul SSM",
+              "type": "text",
+              "content": "Hotărârea Guvernului nr. 95/2009 privind instruirea în domeniul securității și sănătății în muncă stabilește tipurile de instruire, durata, periodicitatea și documentarea acestora.\n\nTIPURI DE INSTRUIRE:\n\n1. INSTRUIREA INTRODUCTIV-GENERALĂ\n- Se efectuează la angajare sau la revenirea din absențe mai mari de 6 luni\n- Se realizează de lucrătorul desemnat sau un serviciu extern\n- Durata minimă: 8 ore pentru personalul de conducere, 4 ore pentru muncitori\n- Finalizată cu verificarea cunoștințelor\n\n2. INSTRUIREA LA LOCUL DE MUNCĂ\n- Se efectuează după instruirea introductiv-generală\n- Se realizează de conducătorul direct al locului de muncă\n- Durata: minim 8 ore, eșalonat pe mai multe zile\n- Include demonstrații practice\n\n3. INSTRUIREA PERIODICĂ\n- Se efectuează la intervale stabilite de angajator (max. 6 luni pentru muncitori, max. 12 luni pentru TESA)\n- Se realizează de conducătorul locului de muncă\n- Reconfirmă cunoștințele dobândite\n\nPERIODICITATEA INSTRUIRII CONFORM HG 95/2009:\n- Conducători locuri de muncă, specialiști, reprezentanți ai lucrătorilor: cel puțin o dată în 36 de luni\n- Lucrători desemnați: cel puțin o dată în 60 de luni\n- Muncitori: cel puțin o dată la 6 luni\n\nDOCUMENTARE OBLIGATORIE:\nToate instruirile se consemnează în Fișa personală de instruire SSM (Anexa 5, HG 95/2009), semnată de cel instruit și de persoana care a efectuat instruirea."
+            },
+            {
+              "id": "n1-mod-1-quiz",
+              "title": "Test — Cadrul legislativ",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Care este actul normativ fundamental privind SSM în Republica Moldova?",
+                  "options": [
+                    "Codul Muncii, art. 45",
+                    "Legea nr. 186/2008 privind securitatea și sănătatea în muncă",
+                    "HG nr. 95/2009",
+                    "Legea nr. 212/2004"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q2",
+                  "text": "La ce interval maxim se efectuează instruirea periodică pentru conducătorii de locuri de muncă?",
+                  "options": [
+                    "6 luni",
+                    "12 luni",
+                    "36 luni",
+                    "60 luni"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Conform principiilor de prevenire, față de măsurile de protecție individuală, cele colective au:",
+                  "options": [
+                    "Prioritate mai mică",
+                    "Aceeași prioritate",
+                    "Prioritate mai mare",
+                    "Nu există o relație de prioritate stabilită de lege"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q4",
+                  "text": "Cine efectuează instruirea la locul de muncă?",
+                  "options": [
+                    "Lucrătorul desemnat SSM",
+                    "Un serviciu extern autorizat",
+                    "Conducătorul direct al locului de muncă",
+                    "Inspectorul Muncii"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q5",
+                  "text": "Ce document consemnează obligatoriu rezultatele oricărei instruiri SSM?",
+                  "options": [
+                    "Contractul individual de muncă",
+                    "Fișa personală de instruire SSM",
+                    "Registrul de prezență la ședințe",
+                    "Fișa de post"
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n1-mod-2",
+          "title": "Evaluarea și gestionarea riscurilor",
+          "lessons": [
+            {
+              "id": "n1-mod-2-les-1",
+              "title": "Metodologia de evaluare a riscurilor",
+              "type": "text",
+              "content": "Evaluarea riscurilor profesionale este procesul prin care angajatorul identifică pericolele, estimează probabilitatea și gravitatea vătămărilor și decide dacă riscul rezidual este acceptabil.\n\nETAPELE EVALUĂRII RISCURILOR:\n\n1. IDENTIFICAREA PERICOLELOR\n- Inspectarea locurilor de muncă\n- Analiza incidentelor și accidentelor anterioare\n- Consultarea lucrătorilor\n- Analiza fișelor de securitate ale substanțelor chimice\n\n2. IDENTIFICAREA PERSOANELOR EXPUSE\n- Lucrătorii direcți\n- Personalul de curățenie, mentenanță, vizitatori\n- Persoane vulnerabile: femei gravide, tineri sub 18 ani, persoane cu dizabilități\n\n3. ESTIMAREA RISCULUI (Probabilitate × Gravitate)\n- Probabilitate: rară / ocazională / frecventă\n- Gravitate: neglijabilă / moderată / gravă / fatală\n- Nivel de risc: scăzut / mediu / ridicat / inacceptabil\n\n4. DECIDEREA MĂSURILOR DE CONTROL\nIerarhia măsurilor de control (de la cea mai eficientă la cea mai puțin eficientă):\na) Eliminarea pericolului\nb) Substituția (înlocuirea cu ceva mai puțin periculos)\nc) Măsuri tehnice colective (protecții, garduri, ventilare)\nd) Măsuri organizatorice (proceduri, instruire, semnalizare)\ne) EIP (ultima opțiune)\n\n5. DOCUMENTAREA ȘI REVIZUIREA\nEvaluarea riscurilor se documentează și se revizuiește periodic sau la orice modificare semnificativă a condițiilor de muncă.\n\nCa și conducător de loc de muncă, participi activ la identificarea pericolelor și la propunerea măsurilor de control pentru activitățile din subordinea ta."
+            },
+            {
+              "id": "n1-mod-2-les-2",
+              "title": "Instrucțiuni proprii de securitate",
+              "type": "text",
+              "content": "Instrucțiunile proprii de securitate (IPS) sunt documente elaborate de angajator, pe baza evaluării riscurilor, adaptate specificului activității unității.\n\nDE CE SUNT NECESARE IPS:\n- Legislația SSM stabilește cadrul general, dar nu poate detalia fiecare activitate specifică\n- IPS traduc cerințele legale în proceduri concrete, aplicabile la locul de muncă\n- Sunt documentele care se prezintă la instruirea la locul de muncă\n\nCONȚINUTUL UNUI IPS:\n1. Domeniu de aplicare\n2. Riscuri identificate pentru activitatea respectivă\n3. Măsuri de prevenire și protecție\n4. EIP obligatoriu\n5. Procedura de lucru sigur, pas cu pas\n6. Interdicții specifice\n7. Procedura în caz de urgență\n\nRESPONSABILITĂȚILE CONDUCĂTORULUI DE LOC DE MUNCĂ:\n- Propune elaborarea sau actualizarea IPS când activitățile sau condițiile se modifică\n- Se asigură că toți subordonații au luat cunoștință de IPS aplicabile\n- Verifică respectarea IPS în activitatea zilnică\n- Raportează orice IPS care s-a dovedit inadecvat sau incomplet\n\nOBLIGATIE: Lucrătorii trebuie să aibă acces permanent la IPS aplicabile postului lor. Afișarea la locul de muncă sau accesul prin sistemul informatic al unității sunt modalități acceptabile."
+            },
+            {
+              "id": "n1-mod-2-quiz",
+              "title": "Test — Evaluarea riscurilor",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Care este prima etapă în evaluarea riscurilor profesionale?",
+                  "options": [
+                    "Achiziționarea de EIP",
+                    "Identificarea pericolelor",
+                    "Instruirea lucrătorilor",
+                    "Contactarea unui serviciu extern"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q2",
+                  "text": "În ierarhia măsurilor de control, care este cea mai eficientă?",
+                  "options": [
+                    "EIP",
+                    "Instrucțiuni și proceduri",
+                    "Eliminarea pericolului la sursă",
+                    "Semnalizarea de avertizare"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Persoanele vulnerabile care necesită atenție specială la evaluarea riscurilor sunt:",
+                  "options": [
+                    "Doar persoanele cu vechime mai mică de 1 an",
+                    "Femei gravide, tineri sub 18 ani, persoane cu dizabilități",
+                    "Exclusiv angajații cu funcții de conducere",
+                    "Persoanele care lucrează în ture de noapte"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q4",
+                  "text": "Când se revizuiește evaluarea riscurilor?",
+                  "options": [
+                    "Exclusiv la 5 ani, indiferent de circumstanțe",
+                    "Numai la solicitarea Inspecției Muncii",
+                    "Periodic și la orice modificare semnificativă a condițiilor de muncă",
+                    "O singură dată, la înființarea unității"
+                  ],
+                  "correct": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n1-mod-3",
+          "title": "Organizarea activității SSM în unitate",
+          "lessons": [
+            {
+              "id": "n1-mod-3-les-1",
+              "title": "Lucrătorul desemnat și serviciul extern",
+              "type": "text",
+              "content": "Conform Legii nr. 186/2008, angajatorul trebuie să desemneze unul sau mai mulți lucrători pentru a se ocupa de activitățile de protecție și prevenire a riscurilor profesionale.\n\nLUCRĂTORUL DESEMNAT:\n- Este desemnat de angajator din personalul propriu\n- Trebuie să aibă competențele, mijloacele și timpul necesare\n- Poate fi chiar angajatorul (dacă unitatea are sub 9 angajați și nu există riscuri deosebite)\n- Dacă lucrătorii desemnați nu au competențe suficiente, se apelează la un serviciu extern\n\nSERVICIUL EXTERN DE PROTECȚIE ȘI PREVENIRE:\n- Entitate autorizată de Ministerul Muncii să presteze servicii SSM\n- Poate prelua integral sau parțial activitățile de prevenire\n- Angajatorul rămâne responsabil final pentru SSM în unitate\n- Serviciul extern poate emite certificate de absolvire a cursurilor SSM\n\nCOMITETUL DE SSM:\nSe constituie obligatoriu în unitățile cu cel puțin 50 de lucrători.\n- Componență: angajator sau reprezentant + conducători de locuri de muncă + reprezentanți ai lucrătorilor\n- Se întrunește cel puțin trimestrial\n- Analizează condițiile de muncă și propune măsuri de îmbunătățire\n\nCA CONDUCĂTOR DE LOC DE MUNCĂ:\n- Colaborezi cu lucrătorul desemnat / serviciul extern\n- Participi la comitetul de SSM dacă ești desemnat\n- Implementezi la nivelul echipei tale deciziile de prevenire"
+            },
+            {
+              "id": "n1-mod-3-les-2",
+              "title": "Accidente de muncă — obligații de raportare și cercetare",
+              "type": "text",
+              "content": "Accidentul de muncă este vătămarea violentă a organismului sau intoxicația acută profesională care a avut loc în timpul procesului de muncă sau în îndeplinirea îndatoririlor de serviciu.\n\nCLASIFICARE:\n- Accident cu incapacitate temporară de muncă (ITM) — minim o zi calendaristică\n- Accident cu invaliditate\n- Accident mortal\n- Accident colectiv — minimum 3 persoane accidentate simultan\n\nOBLIGATII IMEDIATE ALE CONDUCĂTORULUI DE LOC DE MUNCĂ:\n1. Asigură primul ajutor și apelează 112\n2. Protejează locul accidentului — nu mișca victima, nu modifica locul\n3. Anunță imediat angajatorul sau responsabilul SSM\n4. Consemnează circumstanțele în scris cât mai repede\n\nOBLIGATII ALE ANGAJATORULUI:\n- Accidentele cu ITM, invaliditate sau deces se raportează la Inspecția Muncii în termen de 24 ore\n- Accidentele colective se raportează imediat telefonic, urmat de raport scris\n- Se constituie comisie de cercetare a accidentului\n- Raportul de cercetare se întocmește în 5 zile lucrătoare (ITM) sau 10 zile (invaliditate/deces)\n\nIMPORTANT: Locul accidentului nu poate fi modificat până la finalizarea cercetării, cu excepția cazurilor când există pericol iminent pentru alte persoane sau când este necesară acordarea de prim ajutor. Fotografierea și documentarea sunt esențiale."
+            },
+            {
+              "id": "n1-mod-3-quiz",
+              "title": "Test — Organizare SSM și accidente",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "De la câți angajați devine obligatorie constituirea Comitetului de SSM?",
+                  "options": [
+                    "10 angajați",
+                    "25 angajați",
+                    "50 angajați",
+                    "100 angajați"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q2",
+                  "text": "Un accident colectiv implică minimum:",
+                  "options": [
+                    "2 persoane",
+                    "3 persoane",
+                    "5 persoane",
+                    "10 persoane"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q3",
+                  "text": "În câte ore trebuie raportat la Inspecția Muncii un accident cu incapacitate temporară de muncă?",
+                  "options": [
+                    "1 oră",
+                    "24 ore",
+                    "72 ore",
+                    "5 zile lucrătoare"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q4",
+                  "text": "Ce faci cu locul accidentului de muncă imediat după producerea acestuia?",
+                  "options": [
+                    "Îl cureți pentru a nu împiedica activitatea",
+                    "Îl modifici pentru a preveni alte accidente",
+                    "Îl protejezi și nu îl modifici până la finalizarea cercetării",
+                    "Îl fotografiezi și apoi reiei activitatea normal"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q5",
+                  "text": "Dacă lucrătorii desemnați nu au competențe SSM suficiente, angajatorul trebuie să:",
+                  "options": [
+                    "Desfășoare singur activitățile SSM",
+                    "Apeleze la un serviciu extern de protecție și prevenire",
+                    "Angajeze mai mulți lucrători fără pregătire SSM",
+                    "Solicite finanțare de la stat"
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n1-mod-4",
+          "title": "Instruirea lucrătorilor — responsabilități practice",
+          "lessons": [
+            {
+              "id": "n1-mod-4-les-1",
+              "title": "Cum efectuezi instruirea la locul de muncă",
+              "type": "text",
+              "content": "Ca și conducător de loc de muncă, ești responsabil direct de instruirea la locul de muncă și de instruirea periodică a subordonaților tăi.\n\nPREGĂTIREA INSTRUIRII:\n1. Studiază instrucțiunile proprii de securitate aplicabile postului\n2. Pregătește demonstrații practice acolo unde este posibil\n3. Identifică riscurile specifice postului și locației\n4. Asigură-te că EIP necesar este disponibil și în stare bună\n\nEFECTUAREA INSTRUIRII:\n1. Prezintă riscurile specifice locului de muncă — concret, cu exemple din unitate\n2. Demonstrează utilizarea corectă a EIP\n3. Explică procedurile de urgență specifice locației\n4. Demonstrează operațiunile periculoase și cum se execută corect\n5. Verifică că angajatul a înțeles — pune întrebări, solicită demonstrații\n6. Semnează Fișa personală de instruire SSM\n\nINSTRUIREA PERIODICĂ are rol de reconfirmare și reactualizare:\n- Acoperă modificările legislative sau de proceduri apărute\n- Analizează incidentele sau accidentele care au avut loc în unitate\n- Reamintește riscurile sezoniere sau specifice perioadei\n\nGREȘELI FRECVENTE DE EVITAT:\n- Instruiri formale, semnate fără conținut real\n- Citirea mecanică a documentelor fără explicații\n- Omiterea demonstrațiilor practice\n- Neverificarea înțelegerii de către angajat\n- Neactualizarea conținutului la schimbări legislative sau organizatorice"
+            },
+            {
+              "id": "n1-mod-4-les-2",
+              "title": "Fișa personală de instruire SSM",
+              "type": "text",
+              "content": "Fișa personală de instruire SSM (Anexa 5 la HG nr. 95/2009) este documentul legal care atestă că instruirea a avut loc.\n\nCONȚINUTUL FIȘEI:\n- Date de identificare a lucrătorului (nume, funcție, data angajării)\n- Instruirea introductiv-generală: data, durata, tematica, semnătura celui care a instruit, semnătura celui instruit\n- Instruirea la locul de muncă: idem\n- Instruirile periodice: tabel cu data, durata, conținut, semnături\n\nOBLIGATII LEGALE:\n- Fișa se întocmește pentru fiecare lucrător la angajare\n- Se păstrează de conducătorul locului de muncă pe toată durata angajării\n- La plecarea din unitate, fișa se arhivează\n- Este document obligatoriu la controlul Inspecției Muncii\n\nATENȘIE LA COMPLETARE:\n- Toate câmpurile trebuie completate — nu se lasă câmpuri goale\n- Semnăturile trebuie să fie olografe (de mână)\n- Data trebuie să corespundă realității — falsificarea este infracțiune\n- Tematica instruirii se specifică concret, nu generic\n\nSANCȚIUNI:\nLipsa fișelor de instruire sau completarea lor incorectă constituie contravenție și se sancționează cu amendă conform Legii nr. 186/2008. Suma amenzilor poate fi semnificativă și afectează direct angajatorul."
+            },
+            {
+              "id": "n1-mod-4-quiz",
+              "title": "Test — Instruirea lucrătorilor",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Cine efectuează instruirea la locul de muncă conform HG 95/2009?",
+                  "options": [
+                    "Serviciul extern de protecție și prevenire",
+                    "Conducătorul direct al locului de muncă",
+                    "Departamentul de resurse umane",
+                    "Un coleg cu mai multă experiență"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q2",
+                  "text": "Cine semnează Fișa personală de instruire SSM?",
+                  "options": [
+                    "Doar conducătorul locului de muncă",
+                    "Doar angajatul instruit",
+                    "Atât cel care a instruit, cât și cel instruit",
+                    "Directorul general al unității"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Care este o greșeală frecventă în efectuarea instruirilor SSM?",
+                  "options": [
+                    "Demonstrarea practică a operațiunilor",
+                    "Verificarea înțelegerii prin întrebări",
+                    "Semnarea fișelor fără conținut real al instruirii",
+                    "Actualizarea conținutului la schimbări legislative"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q4",
+                  "text": "Unde se păstrează Fișa personală de instruire SSM?",
+                  "options": [
+                    "La sediul Inspecției Muncii",
+                    "La lucrătorul desemnat SSM din unitate",
+                    "La conducătorul locului de muncă",
+                    "La angajatul în cauză"
+                  ],
+                  "correct": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curs-nivel-2",
+      "title": "Curs Nivel II — Lucrători desemnați și conducători cu atribuții SSM",
+      "description": "Instruire SSM aprofundată de 40 de ore pentru lucrătorii desemnați și conducătorii de unitate care și-au asumat atribuțiile de lucrător desemnat, conform HG nr. 95/2009. Certificat valabil 60 luni.",
+      "certificate_validity_months": 60,
+      "modules": [
+        {
+          "id": "n2-mod-1",
+          "title": "Legislație SSM aprofundată",
+          "lessons": [
+            {
+              "id": "n2-mod-1-les-1",
+              "title": "Sistemul legislativ SSM — structură și ierarhie",
+              "type": "text",
+              "content": "Legislația SSM din Republica Moldova este organizată ierarhic, fiecare nivel normativ detaliind sau concretizând nivelul superior.\n\nNIVELURI LEGISLATIVE:\n\n1. CONSTITUȚIA REPUBLICII MOLDOVA\nArt. 43 garantează dreptul la muncă în condiții de securitate și igienă.\n\n2. CODUL MUNCII (Legea nr. 154/2003)\nStabilește drepturile și obligațiile generale ale angajatorilor și angajaților, inclusiv în materie de SSM.\n\n3. LEGEA NR. 186/2008 PRIVIND SSM\nActul normativ specific, fundamental, care transpune Directiva Cadru Europeană 89/391/CEE.\nPrincipalele prevederi:\n- Obligațiile generale ale angajatorului (art. 9-10)\n- Obligațiile lucrătorilor (art. 13)\n- Instruirea (art. 19)\n- Supravegherea sănătății (art. 22)\n- Servicii de protecție și prevenire (art. 16-17)\n\n4. HOTĂRÂRI DE GUVERN APLICABILE:\n- HG nr. 95/2009 — instruirea SSM\n- HG nr. 603/2011 — cerințe minime pentru echipamente de lucru\n- HG nr. 95/2009 — cerințe minime de securitate la locul de muncă\n- HG nr. 535/2013 — manipularea manuală a maselor\n- HG nr. 676/2003 — echipamente individuale de protecție\n\n5. STANDARDE NAȚIONALE ȘI INTERNAȚIONALE\nISO 45001:2018 — standard internațional pentru sistemele de management SSM, adoptat voluntar.\n\nCA LUCRĂTOR DESEMNAT, trebuie să cunoști în detaliu Legea 186/2008 și toate HG-urile aplicabile domeniului de activitate al unității tale."
+            },
+            {
+              "id": "n2-mod-1-les-2",
+              "title": "Responsabilitatea juridică în domeniul SSM",
+              "type": "text",
+              "content": "Nerespectarea legislației SSM atrage forme multiple de răspundere juridică.\n\nRĂSPUNDEREA CONTRAVENȚIONALĂ:\nConform Legii nr. 186/2008 și Codului contravențional:\n- Amenzi pentru angajator: de la 20.000 la 60.000 lei pentru încălcări grave\n- Amenzi pentru persoane cu funcții de răspundere: de la 5.000 la 20.000 lei\n- Suspendarea activității în cazuri de pericol iminent și grav\n\nRĂSPUNDEREA PENALĂ:\n- Dacă din cauza nerespectării normelor SSM rezultă vătămarea gravă sau decesul unui lucrător, se poate angaja răspunderea penală a directorului, conducătorului de loc de muncă sau lucrătorului desemnat\n- Art. 183 Cod Penal: încălcarea regulilor de protecție a muncii, dacă a cauzat vătămarea gravă a integrității corporale sau decesul — pedepsită cu închisoare de la 2 la 7 ani\n\nRĂSPUNDEREA CIVILĂ:\n- Angajatorul răspunde patrimonial față de victimele accidentelor de muncă\n- Asigurarea obligatorie de accidente de muncă și boli profesionale\n\nRĂSPUNDEREA DISCIPLINARĂ:\n- Neîndeplinirea atribuțiilor SSM de către lucrătorul desemnat poate constitui abatere disciplinară\n\nPRINCIPIU: Responsabilitatea finală pentru SSM aparține întotdeauna angajatorului. Lucrătorul desemnat poate fi tras la răspundere personal doar dacă a acționat cu neglijență gravă sau în afara mandatului primit."
+            },
+            {
+              "id": "n2-mod-1-les-3",
+              "title": "Inspecția Muncii — atribuții și proceduri de control",
+              "type": "text",
+              "content": "Inspecția Muncii este autoritatea administrativă care controlează aplicarea legislației SSM.\n\nATRIBUȚIILE INSPECȚIEI MUNCII:\n- Controlul respectării legislației SSM\n- Cercetarea accidentelor de muncă și bolilor profesionale\n- Acordarea de consultanță angajatorilor și angajaților\n- Aplicarea sancțiunilor contravenționale\n- Sesizarea organelor de urmărire penală în cazuri grave\n\nPROCEDURA DE CONTROL:\n1. Inspectorul se legitimează și prezintă delegația de control\n2. Înștiințează angajatorul sau reprezentantul său\n3. Accesul inspectorului nu poate fi refuzat\n4. Angajatorul are dreptul de a fi însoțitor pe durata controlului\n5. Se întocmește proces-verbal de control / notă de constatare\n6. Angajatorul poate contesta sancțiunile în instanță\n\nDOCUMENTE PE CARE INSPECTORUL LE POATE SOLICITA:\n- Evaluarea riscurilor\n- Planul de prevenire și protecție\n- Fișele personale de instruire SSM\n- Procesele-verbale de cercetare a accidentelor\n- Autorizațiile și avizele specifice activității\n- Fișele medicale de aptitudine\n\nCA LUCRĂTOR DESEMNAT, asiguri că toate documentele sunt actualizate, accesibile și conforme cu legislația. La un control, absența sau neconformitatea documentelor atrage sancțiuni imediate."
+            },
+            {
+              "id": "n2-mod-1-quiz",
+              "title": "Test — Legislație aprofundată",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Care articol din Codul Penal al Republicii Moldova reglementează răspunderea penală pentru încălcarea regulilor de protecție a muncii cu consecințe grave?",
+                  "options": [
+                    "Art. 125",
+                    "Art. 183",
+                    "Art. 210",
+                    "Art. 298"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q2",
+                  "text": "Poate angajatorul refuza accesul Inspecției Muncii la control?",
+                  "options": [
+                    "Da, dacă anunțul de control a venit cu mai puțin de 24 ore înainte",
+                    "Da, dacă este în desfășurare o activitate de producție critică",
+                    "Nu, accesul inspectorului nu poate fi refuzat",
+                    "Da, dacă nu este prezent directorul general"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Standardul internațional voluntar pentru sisteme de management SSM este:",
+                  "options": [
+                    "ISO 9001:2015",
+                    "ISO 14001:2015",
+                    "ISO 45001:2018",
+                    "OHSAS 18001"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q4",
+                  "text": "Responsabilitatea finală pentru SSM în unitate aparține:",
+                  "options": [
+                    "Lucrătorului desemnat SSM",
+                    "Serviciului extern de protecție și prevenire",
+                    "Comitetului de SSM",
+                    "Angajatorului"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": "q5",
+                  "text": "Care HG reglementează instruirea în domeniul SSM în Republica Moldova?",
+                  "options": [
+                    "HG nr. 603/2011",
+                    "HG nr. 95/2009",
+                    "HG nr. 535/2013",
+                    "HG nr. 676/2003"
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2-mod-2",
+          "title": "Planificarea și implementarea sistemului SSM",
+          "lessons": [
+            {
+              "id": "n2-mod-2-les-1",
+              "title": "Politica și obiectivele SSM ale unității",
+              "type": "text",
+              "content": "O politică SSM documentată este fundamentul unui sistem de management SSM funcțional.\n\nCE TREBUIE SĂ CONȚINĂ POLITICA SSM:\n1. Angajamentul conducerii de a asigura condiții sigure de muncă\n2. Angajamentul de a respecta legislația SSM aplicabilă\n3. Angajamentul de a îmbunătăți continuu performanța SSM\n4. Obiective SSM măsurabile\n5. Modul de comunicare a politicii tuturor lucrătorilor\n\nOBIECTIVE SSM EFICIENTE (SMART):\n- Specifice: \"Reducem accidentele cu ITM cu 30% față de anul precedent\"\n- Măsurabile: se pot cuantifica\n- Realizabile: nu utopice\n- Relevante: legate de riscurile reale ale unității\n- Temporal definite: termen clar\n\nPLANUL DE PREVENIRE ȘI PROTECȚIE:\nDocumentul în care se traduc obiectivele SSM în acțiuni concrete:\n- Ce măsuri se iau\n- Cine este responsabil\n- Când se implementează\n- Cum se verifică implementarea\n- Resurse alocate\n\nCA LUCRĂTOR DESEMNAT:\n- Propui politica SSM spre aprobare conducerii\n- Elaborezi planul de prevenire și protecție\n- Monitorizezi implementarea\n- Raportezi conducerii periodic stadiul realizării obiectivelor"
+            },
+            {
+              "id": "n2-mod-2-les-2",
+              "title": "Evaluarea riscurilor — metodologii avansate",
+              "type": "text",
+              "content": "Ca lucrător desemnat, coordonezi procesul de evaluare a riscurilor pentru întreaga unitate.\n\nMETODE DE EVALUARE A RISCURILOR:\n\n1. METODA MATRICEI RISCURILOR\nCea mai utilizată în practică:\n- Se stabilesc scale de probabilitate (1-5) și gravitate (1-5)\n- Nivelul riscului = Probabilitate × Gravitate\n- Rezultatul se poziționează în matrice: verde (acceptabil), galben (tolerabil cu măsuri), roșu (inacceptabil)\n\n2. METODA WHAT IF (Ce se întâmplă dacă...)\n- Echipă multidisciplinară analizează scenarii ipotetice\n- \"Ce se întâmplă dacă supapa de siguranță cedează?\"\n- Utilă pentru procese industriale complexe\n\n3. FMEA (Failure Mode and Effect Analysis)\n- Analiza modurilor de defectare și a efectelor\n- Specifică industriei de producție\n\n4. HAZOP (Hazard and Operability Study)\n- Pentru procese chimice și petrochimice\n\nETAPELE EVALUĂRII PENTRU LUCRĂTORUL DESEMNAT:\n1. Inventarierea tuturor activităților și locurilor de muncă\n2. Identificarea pericolelor pentru fiecare activitate\n3. Estimarea riscului inițial (fără măsuri)\n4. Identificarea măsurilor de control existente\n5. Estimarea riscului rezidual (cu măsuri)\n6. Deciderea dacă riscul rezidual este acceptabil\n7. Stabilirea măsurilor suplimentare pentru riscurile inacceptabile\n8. Documentarea și revizuirea periodică\n\nIMPORTANT: Evaluarea riscurilor nu este un exercițiu birocratic. Calitatea ei determină direct calitatea măsurilor de prevenire și, în ultimă instanță, siguranța lucrătorilor."
+            },
+            {
+              "id": "n2-mod-2-les-3",
+              "title": "Planul de urgență și managementul situațiilor de criză",
+              "type": "text",
+              "content": "Planul de urgență este documentul care stabilește cum răspunde unitatea la situații de urgență: incendii, explozii, scurgeri de substanțe periculoase, cutremure, accidente majore.\n\nCONȚINUTUL PLANULUI DE URGENȚĂ:\n1. Tipurile de urgențe posibile în unitate (bazat pe evaluarea riscurilor)\n2. Sistemul de alarmă și alertare\n3. Echipa de primă intervenție — componență, responsabilități, formare\n4. Proceduri pentru fiecare tip de urgență\n5. Căile de evacuare și punctele de adunare\n6. Contacte de urgență: 112, ISPU, medic, angajator\n7. Locația mijloacelor de intervenție: stingătoare, truse prim ajutor, duș de urgență\n\nEXERCIȚII DE URGENȚĂ:\n- Obligatorii cel puțin anual\n- Se simulează evacuarea reală\n- Se evaluează timpul de evacuare și comportamentul angajaților\n- Se documentează exercițiul și se identifică deficiențele\n- Lucrătorul desemnat coordonează exercițiile și raportează rezultatele conducerii\n\nECHIPA DE PRIMĂ INTERVENȚIE:\n- Voluntari instruiți în utilizarea stingătoarelor și acordarea primului ajutor\n- Cel puțin 1 persoană instruită în prim ajutor la fiecare 50 de angajați\n- Instruire periodică la 2 ani\n\nDUPĂ O URGENȚĂ:\n1. Asigurarea zonei\n2. Evaluarea daunelor\n3. Notificarea autorităților dacă este cazul\n4. Raportare internă\n5. Analiza cauzelor și actualizarea planului de urgență"
+            },
+            {
+              "id": "n2-mod-2-quiz",
+              "title": "Test — Planificare SSM",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Într-o matrice a riscurilor cu scale 1-5, care este nivelul maxim de risc posibil?",
+                  "options": [
+                    "10",
+                    "15",
+                    "20",
+                    "25"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": "q2",
+                  "text": "Cât de frecvent trebuie efectuate exercițiile de evacuare?",
+                  "options": [
+                    "Lunar",
+                    "Cel puțin anual",
+                    "O dată la 3 ani",
+                    "Doar la solicitarea Inspecției Muncii"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q3",
+                  "text": "Câți angajați instruiți în prim ajutor trebuie să existe la fiecare 50 de angajați?",
+                  "options": [
+                    "Cel puțin 3",
+                    "Cel puțin 2",
+                    "Cel puțin 1",
+                    "Nu există o cerință numerică"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q4",
+                  "text": "Metoda HAZOP este utilizată specific în:",
+                  "options": [
+                    "Construcții",
+                    "Procese chimice și petrochimice",
+                    "Activități de birou",
+                    "Transporturi rutiere"
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2-mod-3",
+          "title": "Supravegherea sănătății lucrătorilor",
+          "lessons": [
+            {
+              "id": "n2-mod-3-les-1",
+              "title": "Medicina muncii — cadru legal și obligații",
+              "type": "text",
+              "content": "Supravegherea sănătății lucrătorilor este obligația angajatorului de a asigura examene medicale periodice adaptate riscurilor profesionale la care sunt expuși angajații.\n\nTIPURI DE EXAMINĂRI MEDICALE:\n\n1. EXAMENUL MEDICAL LA ANGAJARE\n- Determină aptitudinea medicală a candidatului pentru postul respectiv\n- Efectuat de medicul de medicina muncii\n- Rezultat: apt / apt condiționat / inapt\n- Angajatorul NU poate angaja o persoană declarată inapt pentru postul respectiv\n\n2. EXAMENUL MEDICAL PERIODIC\n- Frecvența depinde de riscurile specifice postului\n- Stabilită de medicul de medicina muncii în baza evaluării riscurilor\n- Minim o dată pe an pentru activitățile cu risc ridicat\n- Minim o dată la 3 ani pentru activitățile cu risc scăzut\n\n3. EXAMENUL MEDICAL LA RELUAREA ACTIVITĂȚII\n- Obligatoriu după absențe mai mari de 90 zile\n\nBOLI PROFESIONALE:\n- Afecțiuni cauzate exclusiv sau în principal de factori nocivi profesionali\n- Exemple: hipoacuzie profesională (zgomot), pneumoconioza (praf), dermatoze profesionale (substanțe chimice)\n- Declararea bolilor profesionale este obligatorie\n\nROLUL LUCRĂTORULUI DESEMNAT:\n- Colaborează cu medicul de medicina muncii\n- Transmite medicului evaluarea riscurilor și fișele de expunere\n- Monitorizează că toți angajații efectuează examinările periodice\n- Urmărește restricțiile medicale (angajat apt condiționat) și asigură că postul este adaptat"
+            },
+            {
+              "id": "n2-mod-3-les-2",
+              "title": "Factori de risc profesionali specifici și boli asociate",
+              "type": "text",
+              "content": "Cunoașterea relației dintre factorii de risc profesionali și bolile asociate permite identificarea timpurie a problemelor de sănătate și luarea măsurilor preventive corecte.\n\nZGOMOT PROFESIONAL:\n- Limita admisă: 85 dB(A) pentru 8 ore/zi\n- Efecte: hipoacuzie, stres, tulburări cardiovasculare\n- Prevenire: reducere la sursă, carcase fonoabsorbante, rotirea lucrătorilor, antifoane\n- Supraveghere medicală: audiogramă anuală\n\nVIBRAȚII:\n- Vibrații mână-braț: unelte vibratoare (polizoare, ciocane pneumatice)\n- Vibrații corp întreg: vehicule, platforme industriale\n- Efecte: sindrom Raynaud, artroze, hernii de disc\n- Prevenire: mănuși antivibrații, scaune cu amortizare, pauze\n\nSUBSTANȚE CHIMICE PERICULOASE:\n- Valori limită de expunere profesională (VLEP) stabilite pentru fiecare substanță\n- Fișe de date de securitate (FDS) obligatorii pentru toate substanțele periculoase\n- Efecte: intoxicații acute sau cronice, cancer profesional\n- Prevenire: ventilare locală aspirantă, EIP respirator, substituție\n\nSTRES PROFESIONAL:\n- Riscuri psihosociale din ce în ce mai relevante\n- Cauze: supraîncărcare, lipsa controlului, ambiguitate de rol, hărțuire\n- Efecte: burn-out, boli cardiovasculare, anxietate, depresie\n- Prevenire: organizare rațională a muncii, program de sprijin psihologic, politică anti-hărțuire\n\nERGONOMIE:\n- Tulburări musculo-scheletice — cea mai frecventă cauză de incapacitate de muncă\n- Cauze: posturi forțate, ridicare manuală, muncă repetitivă\n- Prevenire: evaluare ergonomică, instruire, ajutor mecanic pentru ridicare"
+            },
+            {
+              "id": "n2-mod-3-quiz",
+              "title": "Test — Sănătatea lucrătorilor",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Care este limita de zgomot admisă pentru o zi de lucru de 8 ore?",
+                  "options": [
+                    "75 dB(A)",
+                    "80 dB(A)",
+                    "85 dB(A)",
+                    "90 dB(A)"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q2",
+                  "text": "Ce document trebuie să existe obligatoriu pentru toate substanțele chimice periculoase din unitate?",
+                  "options": [
+                    "Autorizația de utilizare emisă de Inspecția Muncii",
+                    "Fișa de date de securitate (FDS)",
+                    "Contractul cu furnizorul substanței",
+                    "Avizul medicului de medicina muncii"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q3",
+                  "text": "Examenul medical la reluarea activității este obligatoriu după absențe mai mari de:",
+                  "options": [
+                    "30 zile",
+                    "60 zile",
+                    "90 zile",
+                    "180 zile"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q4",
+                  "text": "Cea mai frecventă cauză de incapacitate de muncă legată de ergonomie sunt:",
+                  "options": [
+                    "Bolile cardiovasculare",
+                    "Tulburările musculo-scheletice",
+                    "Bolile respiratorii profesionale",
+                    "Hipoacuzia profesională"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q5",
+                  "text": "Angajatorul poate angaja o persoană declarată inapt medical pentru postul respectiv?",
+                  "options": [
+                    "Da, dacă semnează o declarație pe propria răspundere",
+                    "Da, cu avizul Inspecției Muncii",
+                    "Nu, în niciun caz",
+                    "Da, dacă există lipsă de personal"
+                  ],
+                  "correct": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2-mod-4",
+          "title": "Investigarea accidentelor și analiza cauzelor",
+          "lessons": [
+            {
+              "id": "n2-mod-4-les-1",
+              "title": "Metodologia de investigare a accidentelor",
+              "type": "text",
+              "content": "Investigarea accidentelor nu are ca scop găsirea unui vinovat, ci identificarea cauzelor reale pentru a preveni repetarea.\n\nPRINCIPIUL CAUZELOR MULTIPLE:\nOrice accident are cauze multiple, organizate pe niveluri:\n- CAUZE IMEDIATE: actul nesigur sau condiția nesigură care a declanșat accidentul direct\n- CAUZE DE BAZĂ: factori personali (oboseală, lipsă de instruire) sau factori profesionali (echipament defect, proceduri inexistente)\n- CAUZE RĂDĂCINĂ: deficiențe de management, politici, cultură organizațională\n\nMETODA \"5 DE CE\" (5 Whys):\nSe întreabă \"de ce?\" în mod repetat pentru a ajunge la cauza rădăcină:\nExemplu:\n- Accident: Lucrătorul a alunecat pe podea.\n- De ce? Podeaua era umedă.\n- De ce era umedă? Scurgere de la conducta de apă.\n- De ce scurgea conducta? Nu fusese inspectată conform programului.\n- De ce nu fusese inspectată? Programul de mentenanță nu era respectat.\n- De ce nu era respectat? Nu exista responsabil desemnat pentru mentenanță.\n- CAUZA RĂDĂCINĂ: Lipsa unui sistem de management al mentenanței.\n\nDOCUMENTELE DE INVESTIGARE:\n1. Procesul-verbal de cercetare a accidentului de muncă (formular standard)\n2. Declarațiile martorilor\n3. Fotografii ale locului accidentului\n4. Schița locului\n5. Documente relevante: fișa de instruire, evaluarea riscurilor, IPS\n\nOBLIGATIE: Procesul-verbal de cercetare se arhivează la unitate minimum 50 de ani pentru accidentele cu invaliditate sau deces, și minimum 5 ani pentru cele cu ITM."
+            },
+            {
+              "id": "n2-mod-4-les-2",
+              "title": "Indicatori de performanță SSM și cultura securității",
+              "type": "text",
+              "content": "Monitorizarea performanței SSM prin indicatori permite identificarea tendințelor și luarea de decizii preventive înainte ca accidentele să se producă.\n\nINDICATORI REACTIVI (ce s-a întâmplat):\n- Rata accidentelor cu incapacitate de muncă (RAIM) = (Nr. accidente ITM × 1.000.000) / Nr. ore lucrate\n- Rata de frecvență a accidentelor\n- Rata de gravitate a accidentelor\n- Nr. zile de incapacitate temporară de muncă\n- Nr. boli profesionale declarate\n\nINDICATORI PROACTIVI (ce facem pentru prevenire):\n- % instruiri SSM efectuate la termen\n- Nr. inspecții interne de securitate efectuate\n- Nr. neconformități identificate și rezolvate\n- Nr. riscuri evaluate față de total riscuri identificate\n- Nr. sugestii de îmbunătățire SSM primite de la angajați\n- % EIP în conformitate cu standardele\n\nCULTURA SECURITĂȚII:\nO cultură a securității matură se caracterizează prin:\n- Conducere angajată vizibil față de SSM\n- Comunicare deschisă despre pericole și aproape-accidente\n- Fără blamare a lucrătorilor pentru raportarea problemelor\n- Angajații se simt responsabili față de siguranța proprie și a colegilor\n- Îmbunătățire continuă\n\nCA LUCRĂTOR DESEMNAT:\n- Calculezi și raportezi indicatorii lunar sau trimestrial conducerii\n- Analizezi tendințele și propui măsuri\n- Promovezi cultura securității prin comunicare, recunoaștere și exemple pozitive\n- Organizezi campanii de conștientizare SSM"
+            },
+            {
+              "id": "n2-mod-4-quiz",
+              "title": "Test — Investigarea accidentelor",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Care este scopul principal al investigării unui accident de muncă?",
+                  "options": [
+                    "Găsirea vinovatului pentru sancționare",
+                    "Identificarea cauzelor pentru a preveni repetarea",
+                    "Documentarea pentru procesul de asigurare",
+                    "Informarea Inspecției Muncii"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q2",
+                  "text": "Ce reprezintă \"cauza rădăcină\" a unui accident?",
+                  "options": [
+                    "Actul nesigur care a declanșat direct accidentul",
+                    "Condiția fizică nesigură identificată",
+                    "Deficiența fundamentală de management sau sistem care a permis apariția accidentului",
+                    "Factorul personal al accidentatului (oboseală, distracție)"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Cât timp se arhivează procesul-verbal de cercetare a unui accident mortal?",
+                  "options": [
+                    "5 ani",
+                    "10 ani",
+                    "25 ani",
+                    "50 ani"
+                  ],
+                  "correct": 3
+                },
+                {
+                  "id": "q4",
+                  "text": "Rata accidentelor cu incapacitate de muncă (RAIM) se calculează la câte ore lucrate?",
+                  "options": [
+                    "10.000",
+                    "100.000",
+                    "1.000.000",
+                    "10.000.000"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q5",
+                  "text": "Un indicator PROACTIV de performanță SSM este:",
+                  "options": [
+                    "Rata de frecvență a accidentelor",
+                    "Numărul de zile de incapacitate temporară de muncă",
+                    "Procentul instruirilor efectuate la termen",
+                    "Numărul bolilor profesionale declarate"
+                  ],
+                  "correct": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n2-mod-5",
+          "title": "Gestionarea documentației SSM",
+          "lessons": [
+            {
+              "id": "n2-mod-5-les-1",
+              "title": "Dosarul SSM al unității — documente obligatorii",
+              "type": "text",
+              "content": "Lucrătorul desemnat este responsabil de constituirea, actualizarea și păstrarea dosarului SSM al unității.\n\nDOCUMENTE OBLIGATORII ÎN DOSARUL SSM:\n\n1. DOCUMENTE DE ORGANIZARE:\n- Decizia de numire a lucrătorului desemnat\n- Contractul cu serviciul extern (dacă există)\n- Componența Comitetului de SSM și procesele-verbale ale ședințelor\n\n2. DOCUMENTE DE EVALUARE:\n- Evaluarea riscurilor profesionale (revizuită periodic)\n- Planul de prevenire și protecție\n- Fișele de expunere la agenți nocivi (dacă este cazul)\n\n3. DOCUMENTE DE INSTRUIRE:\n- Tematicile de instruire pentru fiecare tip de instruire\n- Fișele personale de instruire SSM pentru toți angajații\n- Procesele-verbale de verificare a cunoștințelor (pentru cursurile externe)\n\n4. DOCUMENTE MEDICALE:\n- Contractul cu medicul de medicina muncii\n- Dovada efectuării examinărilor medicale (nu fișele medicale individuale — acestea sunt confidențiale)\n\n5. DOCUMENTE DE URGENȚĂ:\n- Planul de urgență și evacuare\n- Procesele-verbale ale exercițiilor de evacuare\n\n6. DOCUMENTE PRIVIND ACCIDENTELE:\n- Procesele-verbale de cercetare a accidentelor de muncă\n- Registrul de evidență a accidentelor\n\n7. AUTORIZAȚII ȘI AVIZE SPECIFICE ACTIVITĂȚII\n\nCONSFAT: Organizează dosarul pe secțiuni clare, cu un index. La un control, capacitatea de a prezenta rapid orice document impresionează pozitiv inspectorul și demonstrează profesionalism."
+            },
+            {
+              "id": "n2-mod-5-les-2",
+              "title": "Instrucțiuni proprii de securitate — elaborare și actualizare",
+              "type": "text",
+              "content": "Ca lucrător desemnat, coordonezi elaborarea instrucțiunilor proprii de securitate (IPS) pentru toate activitățile cu risc din unitate.\n\nPROCEDURA DE ELABORARE A UNUI IPS:\n\n1. IDENTIFICAREA ACTIVITĂȚII\n- Definești clar activitatea (ex: \"Operarea prânzitoarei hidraulice\")\n- Listezi toate operațiunile componente\n\n2. IDENTIFICAREA RISCURILOR SPECIFICE\n- Bazată pe evaluarea riscurilor\n- Consultarea conducătorilor de locuri de muncă și a lucrătorilor cu experiență\n\n3. STABILIREA MĂSURILOR DE PREVENIRE\n- Urmezi ierarhia măsurilor (eliminare → substituție → măsuri tehnice → organizatorice → EIP)\n- Fiecare risc trebuie să aibă cel puțin o măsură de control\n\n4. REDACTAREA IPS\n- Limbaj simplu și direct — accesibil nivelului de educație al utilizatorilor\n- Evitare terminologie juridică sau tehnică excesivă\n- Dacă este util, se adaugă ilustrații\n\n5. APROBAREA\n- IPS se aprobă de conducătorul unității\n- Se aduce la cunoștința lucrătorilor vizați prin semnătură\n\n6. ACTUALIZAREA\n- Obligatoriu la modificarea activității, a echipamentelor sau a legislației\n- Recomandat după orice incident sau accident produs în cursul activității respective\n- Data reviziei și numărul ediției se marchează pe document\n\nIMPORTANT: Un IPS elaborat formal, fără să reflecte realitatea activității, este inutil și poate chiar agrava o situație de urgență prin instrucțiuni inadecvate."
+            },
+            {
+              "id": "n2-mod-5-quiz",
+              "title": "Test — Documentația SSM",
+              "type": "quiz",
+              "questions": [
+                {
+                  "id": "q1",
+                  "text": "Cine aprobă instrucțiunile proprii de securitate (IPS)?",
+                  "options": [
+                    "Lucrătorul desemnat SSM",
+                    "Comitetul de SSM",
+                    "Conducătorul unității",
+                    "Inspectorul de muncă"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q2",
+                  "text": "Fișele medicale individuale ale angajaților se păstrează:",
+                  "options": [
+                    "În dosarul SSM al unității",
+                    "La lucrătorul desemnat",
+                    "Sunt confidențiale și nu fac parte din dosarul SSM",
+                    "La departamentul de resurse umane, accesibil oricui"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q3",
+                  "text": "Când se actualizează obligatoriu un IPS?",
+                  "options": [
+                    "Exclusiv la 5 ani",
+                    "Numai la solicitarea Inspecției Muncii",
+                    "La modificarea activității, a echipamentelor sau a legislației",
+                    "IPS nu se actualizează odată aprobat"
+                  ],
+                  "correct": 2
+                },
+                {
+                  "id": "q4",
+                  "text": "Ce document atestă că angajații au luat cunoștință de IPS aplicabile postului lor?",
+                  "options": [
+                    "Contractul individual de muncă",
+                    "Semnătura angajaților pe documentul IPS sau în registrul de instruire",
+                    "Adeverința medicală de aptitudine",
+                    "Fișa de post"
+                  ],
+                  "correct": 1
+                },
+                {
+                  "id": "q5",
+                  "text": "Registrul de evidență a accidentelor de muncă face parte din:",
+                  "options": [
+                    "Documentele departamentului de resurse umane",
+                    "Dosarul SSM al unității",
+                    "Dosarul contabil al unității",
+                    "Documentele Comitetului de SSM exclusiv"
+                  ],
+                  "correct": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

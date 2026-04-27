@@ -1,9 +1,22 @@
 @import url("./login.css");
 
+html,
+body {
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	justify-content: flex-start;
+	align-items: center;
+	overflow-y: auto;
+	padding-top: 110px;
+}
+
 .profile-container {
 	position: relative;
 	z-index: 3;
-	width: min(420px, 100%);
+	width: min(560px, 100%);
 	margin: 0;
 	padding: 70px 30px 44px;
 	border-radius: 1.25rem;
@@ -56,6 +69,47 @@
 
 @media (width >= 500px) {
 	.profile-container {
-		width: 400px;
+		width: min(560px, calc(100% - 48px));
 	}
+}
+
+/* Course cards styling */
+#course-list {
+	display: grid;
+	gap: 15px;
+	margin-top: 20px;
+}
+
+#course-list article {
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background: #fafafa;
+	text-align: left;
+	transition: all 0.2s ease;
+}
+
+#course-list article h3 {
+	margin: 0 0 8px;
+	font-size: 16px;
+	color: #333;
+}
+
+#course-list article p {
+	margin: 4px 0;
+	font-size: 13px;
+	color: #666;
+	line-height: 1.4;
+}
+
+#course-list article p:first-of-type {
+	font-weight: 600;
+	color: #EF7F1D;
+	font-size: 12px;
+}
+
+#course-status {
+	color: #EF7F1D;
+	font-weight: 600;
+	margin: 15px 0;
 }

@@ -1,23 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Înregistrare – Siguranța Muncii</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
-    <a href="index.html" id="backhome">Back to Home</a>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand">
+                <span class="navbar-logo">LOGO</span>
+                <span class="navbar-name">Siguranța Muncii</span>
+            </a>
+            <div class="navbar-links">
+                <a href="#">Despre</a>
+                <a href="#">Cursuri</a>
+                <a href="#">Prețuri</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <a href="login.html" class="navbar-cta">Autentificare</a>
+    </nav>
+
     <div class="signup-card">
-        <h2>Sign Up</h2>
-        <h3>Create your account</h3>
-        <a href="login.html">Already have an account? Login here.</a>
+        <h2>Înregistrare</h2>
+        <h3>Creați-vă contul</h3>
+        <a href="login.html">Aveți deja un cont? Conectați-vă aici.</a>
         <form class="signup-form">
-            <label for="username">Username</label>
+            <label for="username">Utilizator</label>
             <input type="text" id="username" name="username" required>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" required>
-            <label for="phone">Phone</label>
+            <label for="phone">Telefon</label>
             <div class="phone-input">
                 <select name="ccode" id="ccode">
                     <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
@@ -240,16 +258,14 @@
                 </select>
                 <input type="tel" id="phone" name="phone" inputmode="numeric" minlength="6" maxlength="12" required>
             </div>
-            <p>Phone must be digits only (6 to 12 digits, country code selected separately).</p>
-            <label for="password">Password</label>
+            <p>Doar cifre (6–12 cifre, prefixul țării selectat separat).</p>
+            <label for="password">Parolă</label>
             <input type="password" id="password" name="password" required>
-            <p>Password must be at least 8 characters and include 1 uppercase letter, 1 number, and 1 special character.</p>
-            <button type="submit">Sign Up</button>
+            <p>Minimum 8 caractere, o majusculă, o cifră și un caracter special.</p>
+            <button type="submit">Înregistrare</button>
         </form>
     </div>
+
     <script src="js/signup.js"></script>
-    <script>
-        
-    </script>
 </body>
 </html>

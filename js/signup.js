@@ -54,12 +54,12 @@ signupForm.addEventListener("submit", async function (event) {
     const phoneNum = String(ccodeSelect.value) + cleanedPhone;
 
     if (!passwordRule.test(password)) {
-        alert("Password must be at least 8 characters and include 1 uppercase letter, 1 number, and 1 special character.");
+        alert("Parola trebuie să aibă cel puțin 8 caractere și să includă o literă mare, o cifră și un caracter special.");
         return;
     }
 
     if (!phoneLocalRule.test(cleanedPhone)) {
-        alert("Phone number must contain only digits and be between 6 and 12 digits.");
+        alert("Numărul de telefon trebuie să conțină doar cifre și să aibă între 6 și 12 cifre.");
         return;
     }
     
@@ -75,13 +75,13 @@ signupForm.addEventListener("submit", async function (event) {
         const data = await res.json();
         console.log(data);
         if(res.ok){
-            alert("Signed up successfully");
+            alert("Înregistrare reușită");
             signupForm.reset();
         } else {
-            alert("Signup failed: " + data.message);
+            alert("Înregistrare eșuată: " + data.message);
         }
     } catch(err){
-        console.log("Server error:", err);
-        alert("Can't connect to server");
+        console.log("Eroare server:", err);
+        alert("Nu se poate realiza conexiunea la server");
     }
 });

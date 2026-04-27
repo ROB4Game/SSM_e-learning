@@ -1,167 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500;600&display=swap');
+
 * {
     box-sizing: border-box;
 }
-html,body,.wrapper{
+
+html, body {
     height: 100%;
-}
-body{
-    display: grid;
-    place-items: center;
     margin: 0;
-    padding: 0 24px;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1013%26quot%3b)' fill='none'%3e%3cpath d='M0 41.75C9.33 14.32 19.14 8.49 47.6 0C89.14 -12.39 93.8 0 140 0C210 0 210 0 280 0C350 0 350 0 420 0C470.64 0 521.28 -17.47 521.28 0C521.28 22.19 472.37 42.12 420 79.33C373.84 112.12 324.21 111.56 324.21 140C324.21 167.17 377.15 158.39 420 190.56C470.39 228.39 467.44 233.39 510.7 280C537.44 308.81 532.51 341.4 560 341.4C592.88 341.4 628.91 318.58 631.43 280C635.48 217.88 579.16 211.75 573.13 140C567.39 71.75 569.18 42.72 607.89 0C632.61 -27.28 653.94 0 700 0C770 0 770 0 840 0C910 0 910 0 980 0C1022 0 1040.17 -25.36 1064 0C1105.93 44.64 1099.16 68.09 1111.52 140C1123.22 208.09 1108.18 211.55 1112.11 280C1112.42 285.38 1115.04 287.67 1120 287.67C1133.72 287.67 1136.88 288.25 1149.47 280C1206.88 242.41 1212.43 196 1260 196C1293.94 196 1288.98 236.48 1312.5 280C1349.52 348.48 1345.04 351.03 1381.08 420C1388.79 434.75 1385.39 447.45 1400 447.45C1448.7 447.45 1496.77 455.51 1507.69 420C1522.51 371.79 1472.58 352.03 1451.47 280C1431.55 212.03 1444.96 207.45 1425.63 140C1419.23 117.66 1420.5 109.1 1400 100.43C1337.69 74.1 1318.29 101.86 1260 70C1226.42 51.64 1216.25 22.88 1216.25 0C1216.25 -12.12 1238.13 0 1260 0C1330 0 1330 0 1400 0C1470 0 1505 -35 1540 0C1575 35 1540 70 1540 140C1540 210 1540 210 1540 280C1540 350 1540 350 1540 420C1540 490 1575 525 1540 560C1505 595 1470 560 1400 560C1330 560 1330 560 1260 560C1190 560 1190 560 1120 560C1050 560 1050 560 980 560C911.15 560 910.75 561.04 842.3 560C840.75 559.98 840.96 559.11 840 557.88C786.28 489.11 782.57 491.44 732.94 420C712.57 390.68 720.06 356.36 700 356.36C676.66 356.36 653.83 382.09 646.15 420C633.19 483.91 684.02 518.88 658.72 560C640.95 588.88 609.36 560 560 560C490 560 490 560 420 560C374.1 560 367.93 574.38 328.2 560C297.93 549.04 305.53 533.17 280 509.31C230.64 463.17 210.88 475.6 178.43 420C143.97 360.94 164.33 348.83 146.18 280C145.11 275.96 144.15 274.69 140 274.25C71.06 266.91 37.1 300.02 0 264.44C-32.9 232.89 0 202.22 0 140C0 90.88 -14.47 84.32 0 41.75' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M840 275.94C835.05 275.94 829.23 277.94 829.23 280C829.23 282.06 835.07 284.18 840 284.18C842.49 284.18 844.06 282.08 844.06 280C844.06 277.96 842.47 275.94 840 275.94' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 290.77C32.41 290.77 98.07 348.23 113.51 420C127.03 482.85 98.92 509.44 57.93 560C42.17 579.44 8.48 580.49 0 560C-20.49 510.49 0 490 0 420C0 355.38 -24.35 290.77 0 290.77' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 103.16C47.59 46.5 56.37 45.12 117.6 0C126.37 -6.46 128.8 0 140 0C210 0 210 0 280 0C350 0 350 0 420 0C433.4 0 446.81 -4.63 446.81 0C446.81 5.87 435.98 15.89 420 21C352.58 42.56 332.2 17.08 280 53.33C246.51 76.58 248.62 99.79 248.62 140C248.62 160.29 260.15 162.85 280 174.34C345.84 212.44 354.13 200.8 420 239.17C444.83 253.63 442.53 257.93 461.41 280C512.53 339.75 509.47 342.57 560 402.81C568.19 412.57 574.81 408.19 578.85 420C601.73 486.79 620.71 509.02 613.85 560C611.29 579.02 586.92 560 560 560C490 560 490 560 420 560C402.78 560 398.41 570.19 385.57 560C328.41 514.67 333.84 503.39 280 448.97C264.58 433.39 256.45 439.27 247.06 420C215.28 354.78 232.62 343.27 197.65 280C179.09 246.42 174.71 242.69 140 226.3C75.89 196.03 53 219.34 0 186.67C-17 176.19 0 163.33 0 140C0 121.58 -11.21 116.5 0 103.16' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M682.5 140C682.5 70.13 660.58 31.31 700 0C739.33 -31.24 770.61 14.89 840 14.89C867.54 14.89 866.31 2.93 893.85 0C936.31 -4.52 936.92 0 980 0C990.18 0 998.75 -8.88 1000.36 0C1011.47 61.12 990.44 72.69 1005.45 140C1021.67 212.69 1025.32 215.96 1062.82 280C1082.59 313.77 1084.63 330.5 1120 335.62C1183.22 344.78 1204.82 286.79 1260 308.57C1311.71 328.98 1296.41 364.61 1333.78 420C1366.41 468.36 1353.2 496.66 1400 516.08C1456.31 539.44 1489.56 489.74 1540 505.56C1559.56 511.7 1559.6 552.38 1540 560C1489.6 579.6 1470 560 1400 560C1365 560 1362.45 569.44 1330 560C1292.45 549.08 1292.84 519.27 1260 519.27C1235.44 519.27 1242.41 552.08 1215.2 560C1172.41 572.45 1167.6 560 1120 560C1050 560 1050 560 980 560C939.84 560 934.47 573.71 899.67 560C864.47 546.13 867.03 535 840 504.85C804.26 465 774.12 462.3 774.12 420C774.12 378.09 805.31 376.67 840 336.42C865.64 306.67 894.78 308.01 894.78 280C894.78 252.41 874.29 230.15 840 225.22C776.9 216.15 743.86 275.73 700 252C665.11 233.12 682.5 196.13 682.5 140' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1400 24.35C1382.49 4.52 1351.3 6.43 1351.3 0C1351.3 -5.75 1375.65 0 1400 0C1470 0 1505 -35 1540 0C1575 35 1540 70 1540 140C1540 210 1540 210 1540 280C1540 311.5 1548.58 343 1540 343C1530.05 343 1513.96 314.37 1502.94 280C1481.42 212.87 1501.12 205.05 1474.93 140C1449.65 77.22 1444.31 74.52 1400 24.35' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 344.62C18.91 344.62 66.22 379.9 66.22 420C66.22 468.63 18 522.08 0 522.08C-15.11 522.08 0 471.04 0 420C0 382.31 -14.2 344.62 0 344.62' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M46.67 140C46.67 109.01 99.47 64.32 140 64.32C170.28 64.32 188.28 106.2 188.28 140C188.28 163.22 166.86 178.36 140 178.36C96.05 178.36 46.67 166.03 46.67 140' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M777.37 140C777.37 117.45 808.35 89.36 840 89.36C872.72 89.36 906.11 117.54 906.11 140C906.11 160.11 872.86 174.49 840 174.49C808.49 174.49 777.37 160.02 777.37 140' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1524.23 140C1506.2 69.61 1479.28 50.79 1485 0C1487.16 -19.21 1532.24 -19.74 1540 0C1559.74 50.26 1540 70 1540 140C1540 177.33 1543.9 214.67 1540 214.67C1536.01 214.67 1533.7 176.95 1524.23 140' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M249.12 280C249.12 258.08 258.81 240.38 280 240.38C329.52 240.38 390.53 253.19 390.53 280C390.53 310.5 323.99 355 280 355C253.29 355 249.12 315.39 249.12 280' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M945.51 280C945.51 245.11 962.95 213.89 980 213.89C996.95 213.89 1013.52 245.2 1013.52 280C1013.52 340.88 996.99 405.26 980 405.26C962.98 405.26 945.51 340.79 945.51 280' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 398.46C5.4 398.46 18.92 408.54 18.92 420C18.92 433.9 5.14 449.17 0 449.17C-4.32 449.17 0 434.59 0 420C0 409.23 -4.06 398.46 0 398.46' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M410 420C410 406.81 415.6 392 420 392C424.28 392 427.37 406.5 427.37 420C427.37 426.86 424.13 432.73 420 432.73C415.45 432.73 410 427.18 410 420' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M815.29 420C815.29 404.28 822.32 388.66 840 388.66C896.44 388.66 963.53 404.22 963.53 420C963.53 435.8 896.33 451.82 840 451.82C822.21 451.82 815.29 435.86 815.29 420' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M993.33 420C1051.48 395.18 1055.35 393.26 1120 383.56C1188.69 373.26 1198 366.43 1260 380C1281.24 384.65 1286.49 400.36 1286.49 420C1286.49 438.18 1275.72 440.06 1260 455.64C1205.08 510.06 1205.42 515.11 1145.2 560C1135.42 567.29 1132.6 560 1120 560C1050 560 1050 560 980 560C968.53 560 957.05 569.44 957.05 560C957.05 511.1 965.2 500.43 980 443.33C983.34 430.43 981.48 425.06 993.33 420' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3cpath d='M513.33 560C513.33 551.72 542.27 529.57 560 529.57C570.09 529.57 568.97 548.14 568.97 560C568.97 563.35 564.49 560 560 560C536.66 560 513.33 566.94 513.33 560' stroke='rgba(0%2c 0%2c 0%2c 0.43)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1013'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Ubuntu';
-    color: #000;
+    padding: 0;
 }
-#backhome{
-    position: fixed;
-    top: 24px;
-    left: 24px;
-    z-index: 10;
-    display: inline-flex;
+
+body {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 44px;
-    padding: 0 16px;
-    border-radius: 1.25rem;
-    background: #28A745;
-    color: #f9f9f9;
-    text-decoration: none;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    transition: all 0.375s;
+    min-height: 100vh;
+    background: #F9FAFB;
+    font-family: 'Inter', sans-serif;
+    color: #101828;
+    padding: 80px 24px 40px;
 }
-#backhome:hover{
-    background: #1f8336;
-}
-.signup-card{
-    position: relative;
-    z-index: 3;
-    width: min(420px, 100%);
-    margin: 0;
-    padding: 70px 30px 44px;
-    border-radius: 1.25rem;  
-    border:2px solid #0000006E;
-    background: #ffffff;
-    text-align: center;
-}
-.signup-card > h2{
-    font-size: 36px;
-    font-weight: 600;
-    margin: 0 0 12px;
 
+/* ── Navbar ── */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid #F3F4F6;
+    display: flex;
+    align-items: center;
+    padding: 0 152px;
+    justify-content: space-between;
+    z-index: 100;
 }
-.signup-card > h3{
-    color: rgba(0,0,0,0.3);
-    margin: 0 0 30px;
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.navbar-logo {
+    background: #EF7F1D;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.navbar-name {
+    color: #101828;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-links a {
+    color: #4A5565;
+    font-size: 14px;
     font-weight: 500;
-    font-size: 1rem;
-
-}
-.signup-form{
-    width: 100%;
-    margin: 0;
-    display: grid;
-    gap: 16px;
-
-}
-.signup-form > *{
-    min-width: 0;
-}
-.signup-form>input, .signup-form>button{
-    width: 100%;
-    height: 50px;
-}
-.signup-form>input{
-    border: 2px solid #0000004e;
-    font-family: inherit;
-    font-size: 15px;
-    padding: 0 16px;
-    border-radius: 1.25rem;
-    transition:all 0.375s;
-}
-.signup-form>input:hover{
-    border:2px solid ;
-}
-.signup-form>button{
-    cursor: pointer;
-    width: 100%;
-    padding: 0 16px;
-    border-radius: 1.25rem;
-    background: #28A745;
-    color: #f9f9f9;
-    border: 0;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: 2px;
-    transition: all 0.375s;
-}
-.signup-form>button:hover{
-    background:     #1f8336;
-}
-.signup-form>a{
-    color:#28A745;
-    font-size: 0.9rem;
-    text-align: left;
     text-decoration: none;
-    margin-bottom: 6px;
-    transition: all 0.375s;
+    transition: color 0.2s;
 }
-.signup-form>a:hover{
-    color: #10449A;
+
+.navbar-links a:hover {
+    color: #101828;
 }
-.signup-form > .phone-input{
+
+.navbar-cta {
+    background: #EF7F1D;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.navbar-cta:hover {
+    background: #d97018;
+}
+
+/* ── Card ── */
+.signup-card {
+    width: 100%;
+    max-width: 440px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    padding: 48px 40px 40px;
+    text-align: center;
+}
+
+.signup-card h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #101828;
+    margin: 0 0 8px;
+    line-height: 1.2;
+}
+
+.signup-card h3 {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4A5565;
+    margin: 0 0 28px;
+}
+
+.signup-card > a {
+    display: block;
+    color: #EF7F1D;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 28px;
+    transition: color 0.2s;
+}
+
+.signup-card > a:hover {
+    color: #d97018;
+}
+
+/* ── Form ── */
+.signup-form {
+    display: grid;
+    gap: 12px;
+    text-align: left;
+}
+
+.signup-form label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: -4px;
+}
+
+.signup-form input,
+.signup-form select {
+    width: 100%;
+    height: 48px;
+    border: 1.5px solid #D1D5DB;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #101828;
+    padding: 0 16px;
+    background: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+}
+
+.signup-form input:hover,
+.signup-form select:hover {
+    border-color: #9CA3AF;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+    border-color: #EF7F1D;
+    box-shadow: 0 0 0 3px rgba(239, 127, 29, 0.12);
+}
+
+.signup-form button {
+    height: 48px;
+    margin-top: 8px;
+    cursor: pointer;
+    background: #EF7F1D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.signup-form button:hover {
+    background: #d97018;
+    box-shadow: 0 4px 12px rgba(239, 127, 29, 0.3);
+}
+
+/* ── Phone input ── */
+.phone-input {
     display: flex;
     gap: 8px;
-    width: 100%;
-    height: 50px;
-    border-radius: 1.25rem;
+    height: 48px;
 }
-.signup-form > .phone-input > select{
-    flex: 0 1 clamp(92px, 30%, 132px);
-    min-width: 92px;
-    max-width: 132px;
-    border: 2px solid #0000004e;
-    font-family: inherit;
-    font-size: 15px;
-    padding: 0 8px;
-    border-radius: 1.25rem;
-    transition:all 0.375s;
+
+.phone-input select {
+    flex: 0 0 auto;
+    width: 130px;
+    padding: 0 10px;
 }
-.signup-form > .phone-input> input{
+
+.phone-input input {
     flex: 1 1 auto;
     min-width: 0;
-    border: 2px solid #0000004e;
-    font-family: inherit;
-    font-size: 15px;
-    padding: 0 16px;
-    border-radius: 1.25rem;
-    transition:all 0.375s;
 }
-p{
-    display: list-item;
-    margin: 0;
-    font-weight: 200;
-    color: rgba(0,0,0,0.3);
+
+/* ── Helper text ── */
+.signup-form p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9CA3AF;
+    margin: -4px 0 0;
+    list-style: none;
+    display: block;
+    text-align: left;
 }
-@keyframes rotate {
-    100%{
-        background-position: 15% 50%;
+
+@media (max-width: 640px) {
+    .navbar {
+        padding: 0 24px;
     }
-}
-@media (width>=500px){
-    body{
-        padding: 0;
+    .navbar-links {
+        display: none;
     }
-    .signup-card{
-        margin: 0;
-        width: 400px;
+    .signup-card {
+        padding: 40px 24px 32px;
     }
 }

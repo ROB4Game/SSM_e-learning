@@ -1,43 +1,254 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Siguranța Muncii – Platformă de e-learning ISSM</title>
+    <meta name="description" content="Platformă completă de e-learning pentru certificare ISSM. Instruiți-vă personalul, obțineți certificarea cu încredere.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        
+    </style>
 </head>
 <body>
-    <div id="top-bar">
-        <div id="marca">
-            <img src="images/clogo.png" alt="CompanyLogo" class="clogo">
-            <h1>Instruire</h1>
-        </div>
-        <div id="search">
-            <input type="text" placeholder="Search...">
-            
-        </div>
-        <div id="profile">
-            <button id="signupButton">Sign Up</button>
-            <button id="loginButton">Login</button>
-            <a href="profile.html">
-                <img width="45px" height="45px" src="images/profile.png" alt="ProfileLogo" class="logo">
+
+    <!-- ── Navbar ── -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="#" class="navbar-brand">
+                <span class="navbar-logo">LOGO</span>
+                <span class="navbar-name">Siguranța Muncii</span>
             </a>
-        </div >
-    </div>
-    <br>
-    <h2>Cursuri:</h2>
-    <div id="courses">
-        <div class="course">
-            <h3>Introducere în Siguranța Muncii</h3>
-            <p>Description of the course...</p>
-            <button>Start Course</button>
+            <div class="navbar-links">
+                <a href="#despre">Despre</a>
+                <a href="#cursuri">Cursuri</a>
+                <a href="#preturi">Prețuri</a>
+                <a href="#contact">Contact</a>
+            </div>
         </div>
-        <div class="course">
-            <h3>Protecția Personală</h3>
-            <p>Description of the course...</p>
-            <button>Start Course</button>
+        <a href="signup.html" class="navbar-cta">Înregistrare</a>
+    </nav>
+
+    <!-- ── Hero ── -->
+    <section class="hero">
+        <div class="hero-bg-img"></div>
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Instruiți-vă personalul. Obțineți certificarea cu încredere.</h1>
+            <p>O platformă completă de e-learning pentru derularea programelor de certificare ISSM la scară largă — sigură, cu posibilitate de urmărire și concepută pentru a asigura conformitatea în practică.</p>
+            <div class="hero-buttons">
+                <a href="signup.html" class="btn-primary">Începeți acum</a>
+                <a href="#despre" class="btn-secondary">Aflați mai multe</a>
+            </div>
         </div>
-    </div>
-    <script src="js/app.js"></script>
+    </section>
+
+    <!-- ── Beneficiari marquee ── -->
+    <section class="beneficiari">
+        <p class="beneficiari-title">Beneficiari</p>
+        <div class="marquee-track-wrap">
+            <div class="marquee-track">
+                <!-- Set 1 -->
+                <div class="marquee-card">Organizații Industriale</div>
+                <div class="marquee-card">Întreprinderi Mici și Mijlocii</div>
+                <div class="marquee-card">Sectorul Medical</div>
+                <div class="marquee-card">Transport și Logistică</div>
+                <div class="marquee-card">Industria Alimentară</div>
+                <div class="marquee-card">Companii de Construcții</div>
+                <div class="marquee-card">Instituții Publice</div>
+                <div class="marquee-card">Firme de Producție</div>
+                <!-- Set 2 (duplicate for seamless loop) -->
+                <div class="marquee-card">Organizații Industriale</div>
+                <div class="marquee-card">Întreprinderi Mici și Mijlocii</div>
+                <div class="marquee-card">Sectorul Medical</div>
+                <div class="marquee-card">Transport și Logistică</div>
+                <div class="marquee-card">Industria Alimentară</div>
+                <div class="marquee-card">Companii de Construcții</div>
+                <div class="marquee-card">Instituții Publice</div>
+                <div class="marquee-card">Firme de Producție</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Features ── -->
+    <section class="section features" id="despre">
+        <div class="section-inner">
+            <div class="section-header">
+                <span class="section-label">De ce noi</span>
+                <h2 class="section-title">Tot ce aveți nevoie pentru conformitate</h2>
+                <p class="section-sub">O singură platformă pentru instruire, evaluare, certificare și raportare — de la angajat nou până la audit.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    </div>
+                    <h3>Cursuri Certificate ISSM</h3>
+                    <p>Conținut structurat conform legislației în vigoare, actualizat automat la fiecare modificare normativă.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <h3>Urmărire Progres</h3>
+                    <p>Monitorizați în timp real stadiul instruirii pentru fiecare angajat, departament sau locație.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 12l2 2 4-4"/></svg>
+                    </div>
+                    <h3>Certificate Digitale</h3>
+                    <p>Generare automată de certificate verificabile după finalizarea cu succes a evaluărilor obligatorii.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                    </div>
+                    <h3>Rapoarte de Conformitate</h3>
+                    <p>Export PDF și Excel pentru inspecții ITM — toate documentele necesare, cu un singur clic.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Acces Multi-Utilizator</h3>
+                    <p>Roluri separate pentru administratori, manageri de departament și angajați — fiecare vede ce îi este relevant.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>Suport Tehnic</h3>
+                    <p>Echipă dedicată disponibilă în orele de program pentru asistență tehnică și consultanță în legislația SSM.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Stats band ── -->
+    <section class="stats-band" id="cursuri">
+        <div class="stats-inner">
+            <div class="stats-text">
+                <h2>Mii de angajați instruiți. Zero neconformități.</h2>
+                <p>Companiile care folosesc platforma noastră trec auditurile ITM fără observații și economisesc zeci de ore de administrare manuală în fiecare an.</p>
+                <a href="signup.html" class="btn-white">Începeți gratuit</a>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Companii active</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">12 000+</div>
+                    <div class="stat-label">Angajați instruiți</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Rată de promovare</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Cursuri disponibile</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Pricing ── -->
+    <section class="section pricing" id="preturi">
+        <div class="section-inner">
+            <div class="section-header center">
+                <span class="section-label">Prețuri</span>
+                <h2 class="section-title">Transparent. Fără surprize.</h2>
+                <p class="section-sub">Alegeți planul potrivit pentru dimensiunea echipei dvs. Toate planurile includ certificare și suport tehnic.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-tier">De bază</div>
+                    <div class="pricing-price">199 <span>MDL/lună</span></div>
+                    <div class="pricing-desc">Pentru echipe mici care încep parcursul de conformitate.</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li>Până la 10 utilizatori</li>
+                        <li>Acces la 10 cursuri ISSM</li>
+                        <li>Certificate digitale</li>
+                        <li>Rapoarte de bază</li>
+                        <li>Suport prin email</li>
+                    </ul>
+                    <a href="signup.html" class="pricing-btn">Începeți</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Cel mai popular</div>
+                    <div class="pricing-tier">Business</div>
+                    <div class="pricing-price">599 <span>MDL/lună</span></div>
+                    <div class="pricing-desc">Pentru companii cu nevoi extinse de instruire și raportare.</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li>Până la 100 utilizatori</li>
+                        <li>Acces complet la toate cursurile</li>
+                        <li>Certificate digitale verificabile</li>
+                        <li>Rapoarte avansate + export</li>
+                        <li>Roluri și departamente</li>
+                        <li>Suport prioritar</li>
+                    </ul>
+                    <a href="signup.html" class="pricing-btn primary">Începeți</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-tier">Enterprise</div>
+                    <div class="pricing-price">Personalizat</div>
+                    <div class="pricing-desc">Pentru organizații mari cu cerințe specifice de integrare.</div>
+                    <div class="pricing-divider"></div>
+                    <ul class="pricing-features">
+                        <li>Utilizatori nelimitați</li>
+                        <li>Cursuri personalizate</li>
+                        <li>Integrare API / SSO</li>
+                        <li>Manager de cont dedicat</li>
+                        <li>SLA garantat</li>
+                        <li>Consultanță legislativă inclusă</li>
+                    </ul>
+                    <a href="#contact" class="pricing-btn">Contactați-ne</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── Footer ── -->
+    <footer class="footer" id="contact">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-nav">
+                    <h4>Navigare</h4>
+                    <ul>
+                        <li><a href="#cursuri">Cursuri</a></li>
+                        <li><a href="#despre">Despre noi</a></li>
+                        <li><a href="#preturi">Prețuri</a></li>
+                        <li><a href="#contact">Contactează-ne</a></li>
+                    </ul>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-logo">LOGO</div>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                    </div>
+                    <p class="footer-tagline">soluție software dezvoltată în Republica Moldova</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Siguranța Muncii. Toate drepturile rezervate.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

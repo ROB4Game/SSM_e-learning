@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progresul cursului</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/course.css">
+</head>
+<body>
+    <nav class="course-nav">
+        <div class="nav-container">
+            <a href="profile.html" class="back-link">← Înapoi la profil</a>
+        </div>
+    </nav>
+
+    <div class="course-container">
+        <div id="successMessage" class="success-message"></div>
+        <div id="errorMessage" class="error" style="display: none;"></div>
+
+        <div id="courseHeader" class="course-header" style="display: none;">
+            <h1 id="courseTitle"></h1>
+            <p id="courseDescription"></p>
+
+            <button id="downloadCertBtn" style="display:none;" onclick="downloadCertificate()">
+                    Descarcă certificatul
+            </button>
+
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width: 0%;"></div>
+            </div>
+            <div class="progress-stats">
+                <span id="progressText">0 / 0 lecții finalizate</span>
+            </div>
+        </div>
+
+        <div id="modulesSection" class="modules-section"></div>
+        
+        <div id="contentView" class="content-view" style="display: none;">
+            <div class="content-header">
+                <h2 id="contentTitle"></h2>
+                <div class="lesson-type" id="contentType"></div>
+            </div>
+            <div id="contentBody" class="lesson-content"></div>
+            <div class="actions">
+                <button type="button" class="btn btn-secondary" id="backToModulesBtn" onclick="goBackToModules(event)">Înapoi la module</button>
+                <button type="button" class="btn btn-primary" id="completeBtn" onclick="completeLesson()">Marchează ca finalizat</button>
+                
+            </div>
+        </div>
+
+        <div id="loading" class="loading">Se încarcă cursul...</div>
+    </div>
+
+    <script src="js/course-view.js?v=20260427"></script>
+</body>
+</html>

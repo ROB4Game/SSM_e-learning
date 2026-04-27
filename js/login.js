@@ -30,14 +30,14 @@ loginForm.addEventListener("submit", async function (event) {
 
     if (data.token) {
       localStorage.setItem("token", data.token);
-      statusMessage.textContent = "Login successful";
+      statusMessage.textContent = "Autentificare reușită";
       window.location.href = "profile.html";
     } else {
-      statusMessage.textContent = "Login failed";
+      statusMessage.textContent = "Autentificare eșuată";
     }
 
   } catch (err) {
-    statusMessage.textContent = "Server error";
+    statusMessage.textContent = "Eroare de server";
   }
 
 });

@@ -13,9 +13,12 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
+    "docxtemplater": "^3.68.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "fs": "^0.0.1-security",
-    "jsonwebtoken": "^9.0.3"
+    "jsonwebtoken": "^9.0.3",
+    "pdf-lib": "^1.17.1",
+    "pizzip": "^3.2.0"
   }
 }

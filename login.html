@@ -1,31 +1,44 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Login</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/login.css">
-    </head>
-    <body>
-        <a href="index.html" id="backhome">Back to Home</a>
-        <div class="login-card">
-            <h2>Login</h2>
-            <h3>Enter your credentials</h3>
-            <a href="signup.html">Don't have an account? Sign up here.</a>
-            <form class="login-form">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-                <button type="submit">Login</button>
-            </form>
-        </div >
-        <script src="js/login.js" async defer></script>
-    </body>
+<html lang="ro">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Autentificare – Siguranța Muncii</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand">
+                <span class="navbar-logo">LOGO</span>
+                <span class="navbar-name">Siguranța Muncii</span>
+            </a>
+            <div class="navbar-links">
+                <a href="#">Despre</a>
+                <a href="#">Cursuri</a>
+                <a href="#">Prețuri</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+        <a href="signup.html" class="navbar-cta">Înregistrare</a>
+    </nav>
+
+    <div class="login-card">
+        <h2>Autentificare</h2>
+        <h3>Introduceți datele de acces</h3>
+        <a href="signup.html">Nu aveți cont? Înregistrați-vă aici.</a>
+        <form class="login-form">
+            <label for="username">Utilizator</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Parolă</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Autentificare</button>
+        </form>
+    </div>
+
+    <script src="js/login.js" async defer></script>
+</body>
 </html>
