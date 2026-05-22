@@ -10,7 +10,7 @@ loginForm.appendChild(statusMessage);
 const serverIP = "0.0.0.0";
 
 loginForm.addEventListener("submit", async function (event) {
-  event.preventDefault(); // ✅ correct variable
+  event.preventDefault(); 
 
   const username = usernameInput.value;
   const password = passwordInput.value;

@@ -66,5 +66,50 @@
     "email": "email@microsoft.com",
     "phoneNum": "2276663342342",
     "progress": {}
+  },
+  {
+    "id": 4,
+    "username": "User",
+    "password": "$2b$10$txYFCCxIODlQb7g3WKzCXO1NeMQSPwbBvYDKAVasTLT6xYX2qjAYS",
+    "email": "user@ssm.md",
+    "phoneNum": "237222222222",
+    "progress": {
+      "curs-prim-ajutor": {
+        "pa-mod-1": {
+          "completedLessons": [
+            "pa-mod-1-les-1",
+            "pa-mod-1-les-2",
+            "pa-mod-1-quiz"
+          ],
+          "completed": true
+        },
+        "pa-mod-2": {
+          "completedLessons": [
+            "pa-mod-2-les-1",
+            "pa-mod-2-les-2"
+          ],
+          "completed": false
+        }
+      },
+      "curs-nivel-1": {
+        "n1-mod-1": {
+          "completedLessons": [
+            "n1-mod-1-les-1",
+            "n1-mod-1-les-2"
+          ],
+          "completed": false
+        }
+      },
+      "curs-nivel-2": {
+        "n2-mod-1": {
+          "completedLessons": [
+            "n2-mod-1-les-1",
+            "n2-mod-1-les-2",
+            "n2-mod-1-les-3"
+          ],
+          "completed": false
+        }
+      }
+    }
   }
 ]
